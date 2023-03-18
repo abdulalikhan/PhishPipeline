@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<!-- begin::Head -->
+<head>
+<style>
+.g-recaptcha > div {
+    width: 100% !important;
+}
+</style>
+<meta charset="utf-8"/>
+<title>
+        Flex | Student
+    </title>
+<meta content="Latest updates and statistic charts" name="description"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<!--begin::Web font -->
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+<script async="" defer="" src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+        WebFont.load({
+            google: { "families": ["Poppins:300,400,500,600,700", "Roboto:300,400,500,600,700"] },
+            active: function () {
+                sessionStorage.fonts = true;
+            }
+        });
+    </script>
+<!--end::Web font -->
+<!--begin::Base Styles -->
+<link href="https://flexstudent.nu.edu.pk/Assets/demo/demo3/base/style.bundle.css" rel="stylesheet" type="text/css"/>
+<link href="https://flexstudent.nu.edu.pk/Assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css"/>
+<link href="https://flexstudent.nu.edu.pk/Assets/CustomCss.css" rel="stylesheet" type="text/css"/>
+<!--end::Base Styles -->
+<link href="https://flexstudent.nu.edu.pk/Assets/demo/demo3/media/img/logo/favicon.ico" rel="shortcut icon"/>
+</head>
+<!-- end::Head -->
+<!-- end::Body -->
+<body class="m--skin- m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-dark m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default">
+<!-- begin:: Page -->
+<div class="m-grid m-grid--hor m-grid--root m-page">
+<div class="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-grid--tablet-and-mobile m-grid--hor-tablet-and-mobile m-login m-login--1 m-login--singin" id="m_login">
+<div class="m-grid__item m-grid__item--order-tablet-and-mobile-2 m-login__aside">
+<div class="m-stack m-stack--hor m-stack--desktop">
+<div class="m-stack__item m-stack__item--fluid">
+<div class="m-login__wrapper">
+<div class="m-login__logo">
+<a href="#">
+<img alt="" class="img-responsive" src="https://flexstudent.nu.edu.pk/Assets/demo/demo3/media/img/logo/flex-logo-blue.png"/>
+</a>
+</div>
+<div class="m-login__signin">
+<div class="m-login__head">
+<h2 class="m-login__title">
+                                        Sign In
+                                    </h2>
+</div>
+<form action="/login" class="m-form m-form--fit m-form--label-align-right" id="frmlogin" method="post"> <div class="form-group m-form__group">
+<h5>
+                                        Roll No.
+                                    </h5>
+<div class="m-input-icon m-input-icon--right">
+<div class="input-group m-input-group m-input-group--square">
+<span class="input-group-addon">
+<i class="la la-user"></i>
+</span>
+<input class="form-control m-input" id="m_inputmask_4" name="username" placeholder="Roll Number i.e (17I-1234)" type="text" value=""/>
+</div>
+<span class="m-form__help">
+                                            Roll Number i.e (17I-1234)
+                                        </span>
+</div>
+</div>
+<div class="form-group m-form__group">
+<h5>
+                                        Password
+                                    </h5>
+<div class="m-input-icon m-input-icon--right">
+<div class="input-group m-input-group m-input-group--square">
+<span class="input-group-addon">
+<i class="la la-lock"></i>
+</span>
+<input class="form-control m-input" id="pass" name="password" placeholder="Password" type="password" value=""/>
+</div>
+</div>
+</div>
+<br/>
+<div class="g-recaptcha" data-sitekey="6LeMxrMZAAAAAJEK1UwUc0C-ScFUyJy07f8YN70S"></div>
+<br/>
+<div class="row m-login__form-sub">
+<div class="col m--align-left">
+<label class="m-checkbox m-checkbox--focus">
+<input id="remember" name="remember" type="checkbox"/>
+                                            Remember me
+                                            <span></span>
+</label>
+</div>
+<div class="col m--align-right">
+<a class="m-link" href="javascript:;" id="m_login_forget_password">
+                                            Forget Password ?
+                                        </a>
+</div>
+</div>
+<div class="m-form__actions text-center">
+<button class="btn btn-primary m-btn m-btn--custom m-btn--icon m-btn--pill m-btn--air" id="m_login_signin_submit" type="submit">
+<span>
+<i class="la la-sign-in"></i>
+<span>
+                                                Sign In
+                                            </span>
+</span>
+</button>
+</div>
+</form> </div>
+<div class="m-login__forget-password">
+<div class="m-login__head">
+<h3 class="m-login__title">
+                                        Forgotten Password ?
+                                    </h3>
+<div class="m-login__desc">
+                                        Enter your personal email that have been entered in NeOn profile. After verification the password will be sent to provided email.
+                                    </div>
+</div>
+<form action="/login" class="m-login__form m-form" method="post"> <div class="m-input-icon m-input-icon--right">
+<div class="input-group m-input-group m-input-group--square">
+<span class="input-group-addon">
+<i class="la la-envelope"></i>
+</span>
+<input class="form-control m-input" id="m_email" name="email" placeholder="Email" type="text" value="">
+</input></div>
+</div>
+<div class="m-login__form-action text-center">
+<button class="btn btn-primary m-btn m-btn--custom m-btn--icon m-btn--pill m-btn--air" id="m_login_forget_password_submit">
+                                            Request
+                                        </button>
+<button class="btn btn-primary m-btn m-btn--custom m-btn--icon m-btn--pill m-btn--air" id="m_login_forget_password_cancel" type="submit">
+                                            Cancel
+                                        </button>
+</div>
+</form> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="m-grid__item m-grid__item--fluid m-grid m-grid--center m-grid--hor m-grid__item--order-tablet-and-mobile-1 m-login__content" style="background-image: url(../../../assets/app/media/img//bg/bg-5.jpg)">
+<div class="m-grid__item m-grid__item--middle">
+<h3 class="m-login__welcome text-center">
+                        Welcome to Flex-Student
+                    </h3>
+<p class="m-login__msg text-center">
+                        For Password related queries contact concerned Academic Officer on     <a href="http://nu.edu.pk/" style="font-weight: 700;font-size: 17px;text-decoration: underline;color:#dcdcff;padding-left: 12px;" target="_blank">nu.edu.pk</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<!-- end:: Page -->
+<!--begin::Base Scripts -->
+<script src="/Assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
+<script src="/Assets/demo/demo3/base/scripts.bundle.js" type="text/javascript"></script>
+<!--end::Base Scripts -->
+<!--begin::Page Snippets -->
+<script src="/Assets/snippets/pages/user/login.js" type="text/javascript"></script>
+<script src="/Assets/snippets/pages/user/cookie.js"></script>
+<script src="/Assets/app/js/input-mask.js"></script>
+<!--end::Page Snippets -->
+</body>
+<!-- end::Body -->
+</html>
+<script>  $(function () {
+      $(this).bind("contextmenu", function (e) {
+          e.preventDefault();
+      });
+  });
+    if (!window.console) window.console = {};
+    var methods = ["log", "debug", "warn", "info", "dir", "dirxml", "trace", "profile"];
+    for (var i = 0; i < methods.length; i++) {
+        console[methods[i]] = function () { };
+    }
+    document.onkeydown = function (e) {
+        if (event.keyCode == 123) {
+            return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+            return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+            return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+            return false;
+        }
+        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+            return false;
+        }
+    }</script>
