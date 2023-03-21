@@ -17,5 +17,5 @@ pip install -r requirements.txt
 To run the application locally, run the following command in cmd:
 
 ```
-app.py
+py app.py
 ```
