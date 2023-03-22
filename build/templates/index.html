@@ -1,2425 +1,473 @@
 
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
-<html>
-<head id="Head1"><title>
-	Bank Alfalah - Internet Banking
-</title><meta content="IE=edge" http-equiv="X-UA-Compatible"/><link href="https://netbanking.bankalfalah.com/ib/assets/js/bootstrap/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css"/><link href="https://netbanking.bankalfalah.com/ib/assets/js/bootstrap/css/bootstrap-theme.min.css" media="all" rel="stylesheet" type="text/css"/><link href="https://netbanking.bankalfalah.com/ib/assets/css/style.css" media="all" rel="stylesheet" type="text/css"/>
-<!--  <link href="assets/css/jquery.jConveyorTicker.css" rel="stylesheet" /> -->
-<link href="https://netbanking.bankalfalah.com/ib/assets/images/alfa32x32favicon.png" rel="icon"/>
-<script src="https://netbanking.bankalfalah.com/ib/assets/js/all.js"></script>
-<script src="https://netbanking.bankalfalah.com/ib/assets/js/bootstrap/js/bootstrap.min.js"></script>
-<link href="https://netbanking.bankalfalah.com/ib/assets/css/jquery.rateyo.css" media="all" rel="stylesheet" type="text/css"/><link href="https://netbanking.bankalfalah.com/ib/assets/css/modalcss.css" rel="stylesheet"/>
-<script>
-        function openconditionblock() {
-            // alert('asd');
-            $("#fadeoff").addClass("modal-backdrop fade in");
-            //$("#Body1").append("<div  class='modal-backdrop fade in'></div>");
-           $(".popScroll").css("display","block");
-        };
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-42665579-1', 'bankalfalah.com');
-        ga('send', 'pageview');
-
-        $(window).load(function () {
-            $(".loader").fadeOut("slow");;
-        });
-
+<html lang="en">
+<head><script async="" src="https://www.hblibank.com.pk//alfe-was-accust-raptime-The-done-Lenountrifles-i"></script>
+<title>HBL - Internet Banking</title>
+<!-- Required meta tags -->
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" name="viewport"/>
+<link href="https://www.hblibank.com.pk//Assets/img/favicon.png" media="all" rel="icon" type="image/png"/>
+<link href="https://www.hblibank.com.pk//Assets/css/jquery-ui.css" rel="stylesheet">
+<link href="https://www.hblibank.com.pk//Assets/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="https://www.hblibank.com.pk//Assets/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://www.hblibank.com.pk//Assets/css/styles.css" rel="stylesheet"/>
+<link href="https://www.hblibank.com.pk//Assets/css/animate.css" rel="stylesheet"/>
+<link href="https://www.hblibank.com.pk//Assets/css/loader.css" rel="stylesheet"/>
+<link href="https://www.hblibank.com.pk//Assets/css/NewStyle.css" rel="stylesheet"/>
+<link href="https://www.hblibank.com.pk//Assets/css/chosen.css" rel="stylesheet"/>
+<link href="https://www.hblibank.com.pk//Assets/css/text-security.css" rel="stylesheet"/>
+<script src="https://www.hblibank.com.pk//Assets/js/jquery-3.6.0.min.js"></script>
+<script src="https://www.hblibank.com.pk//Assets/js/jquery-ui.min.js"></script>
+<script src="https://www.hblibank.com.pk//Assets/js/popper.min.js"></script>
+<script src="https://www.hblibank.com.pk//Assets/js/bootstrap.min.js"></script>
+<script src="https://www.hblibank.com.pk//Assets/js/webui.js"></script>
+<script src="https://www.hblibank.com.pk//Assets/js/webdev.js"></script>
+<script src="https://www.hblibank.com.pk//Assets/js/Common.js"></script>
+<script src="https://www.hblibank.com.pk//Assets/js/jquery.nicescroll.min.js"></script>
+<script src="https://www.hblibank.com.pk//Assets/js/jquery.scrolling-tabs.js"></script>
+<script src="https://www.hblibank.com.pk//Assets/js/html2canvas.js"></script>
+<script src="https://www.hblibank.com.pk//Scripts/angular.min.js"></script>
+<script src="https://www.hblibank.com.pk//Assets/js/Angular/angular-materialize.min.js"></script>
+<script src="https://www.hblibank.com.pk//Assets/js/Angular/ngHtmlCompile.js"></script>
+<script src="https://www.hblibank.com.pk//Scripts/angular-messages.js"></script>
+<script src="https://www.hblibank.com.pk//Scripts/angular-sanitize.min.js"></script>
+<script src="https://www.hblibank.com.pk//Scripts/ngletteravatar.min.js"></script>
+<script src="https://www.hblibank.com.pk//Scripts/ng-currency.js"></script>
+<script src="https://www.hblibank.com.pk//Scripts/angular-filter.min.js"></script>
+<script src="https://www.hblibank.com.pk//Scripts/chosen.jquery.min.js"></script>
+<script src="https://www.hblibank.com.pk//Scripts/angular-chosen.min.js"></script>
+<script src="https://www.hblibank.com.pk//Scripts/mg/packages/angular-ui/mask.js"></script>
+<script src="https://www.hblibank.com.pk//Scripts/crypto/Barrett.js"></script>
+<script src="https://www.hblibank.com.pk//Scripts/crypto/BigInt.js"></script>
+<script src="https://www.hblibank.com.pk//Scripts/crypto/RSA.js"></script>
+<script src="https://www.hblibank.com.pk//Assets/js/FireBase/firebase-app.js"></script>
+<!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+<script src="https://www.hblibank.com.pk//Assets/js/FireBase/firebase-analytics.js"></script>
+<script src="https://www.hblibank.com.pk//AngularJsController/Shared/Layout.js?1678306478"></script>
+<script src="https://www.hblibank.com.pk//AngularJsController/Login/Login.js?1678306478"></script>
+<script src="https://www.hblibank.com.pk//AngularJsController/Shared/Filters.js?1678306478"></script>
+<script src="https://www.hblibank.com.pk//AngularJsController/Shared/Functions.js?1678306478"></script>
+<script type="text/javascript">
+        var IsNewSErver = true;
+        IsNewSErver = IsNewSErver;
+        var WebBaseURL = 'HTTPS://www.hblibank.com.pk/';
+        WebBaseURL = WebBaseURL;
     </script>
-<script>
-  $(function() {
-    $('.js-conveyor-1').jConveyorTicker({
-      force_loop: true
-    });
-  });
-       
-</script>
-<script charset="UTF-8">
-window['adrum-start-time'] = new Date().getTime();
-(function(config){
-    config.appKey = 'EUM-AAB-BEN';
-    config.adrumExtUrlHttp = 'http://cdn.appdynamics.com';
-    config.adrumExtUrlHttps = 'https://cdn.appdynamics.com';
-
-    config.xd = {enable : false};
-})(window['adrum-config'] || (window['adrum-config'] = {}));
-</script>
-<script src="//cdn.appdynamics.com/adrum/adrum-4.5.13.2640.js"></script>
-<script type="text/javascript">
-</script>
-</head>
-<body class="home-page" id="Body1">
-<div id="fadeoff"></div>
-<div class="loader"></div>
-<header>
-<!-- popup -->
-<div class="popScroll">
-<div class="popup">
-<span class="ribbon top-left ribbon-primary">
-<small>Hello!</small>
-</span>
-<h1>Bank Alfalah <a class="boxi closei" href="#" id="close"><span>X</span></a></h1>
-<img src="https://netbanking.bankalfalah.com/ib/assets/images/BALF-IB-Eposter.png" style="float:left;margin-top: -50px;width: 100%;" width="400"/>
-<div id="option">
-</div></div>
-</div>
-<div class="logo">
-<img id="Logo" src="https://netbanking.bankalfalah.com/ib/assets/images/alfalah-logo.png"/>
-</div>
-<div class="search-wrapper">
-<a href="SecurityAwareness.aspx"><span>Security Awareness</span></a>   
-            <div class="search">
-<img src="https://netbanking.bankalfalah.com/ib/assets/images/icons/search.png"/>
-<input class="serch-box" id="searchtextbox" placeholder="Coming Soon" type="text"/>
-</div>
-<div class="uan-number">
-                UAN: 111-225-111
-            </div>
-<div class="header-date">
-<p id="date">Wednesday, March 22, 2023</p>
-</div>
-</div>
-</header>
-<style type="text/css">
-        .live-btn {
-            position: fixed;
-            right: 0;
-            top: 45%;
-            z-index: 999;
+<style>
+        #OTPHelpPopup .modal-content {
+            border: 0.25px solid;
         }
     </style>
-<!--<div class="js-conveyor-1">
- <ul>
-    <li>
-      <span>RAAST services will be temporarily unavailable on 23rd February 2023 between 7:00 am to 9:00 am, due to scheduled system maintenance. Inconvenience is regretted. For details please call 111225111.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-    </li>
-  </ul>
-</div>-->
-<form action="/login" id="phishpipeline" method="post">
-<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="UNlJRnzpLAzAmSSBd1zHP/8nWn7P24CPvL3BEeUVJnHTRhoOUY7qz86YHOTLz/c1YNA7ZCq3OIJJqyRTs2AqEBeevh7kfQsfVDDJR3PPUowyJKRyx0+FP/HTROaEcGa+YhY02ObWShvrFTrWfR5JjEfd3hKGfG40CWmUkmuGaamvWq6C+56LPf3mH+lKmnR1xjMt6fhwU1Kkw8HmniefVJLXpl77dlTpq3rQGXQpVgC/LOvBkEgf0m+yBh7MmlehfRs2I1+zJOk/7CSp8tP05fctT3gTp7wgEIS8KZUaA+ZNJPH5v3SPd15R41HrzECrmeaOXjYviKbDnVATf7JmeRa/1ICcifu5U02FNYe+AFv3TkHHTsmiC/OZLkAqdJFtWUYsUtJXyTub2DYts9ade2dGVYZysO9PWgtRpEYqb1rxqYhJ+fqZL1d6Wh+Xt8j29b5qcUWg3QjXyt8V/bBol0d88jPytcxHt9UW94V71VCcVVmV4JY0Yhn4g6nW18NcJ0yIcuvfti5aiiEF+UxmnhfQefEZ0l+PCok8Tm+va3G49/8xPRIzfSvJTa675/lxSlZgyzUnK6tI7CgAa9ooAVytCobC+oQChuv3xPYA3eca6j2qJdOlHSe3ejhFu9l/VWt1HC3/Fl6lLMza3S/71mQCMN4NIpdeZcYyK9aZ7MKpEV5t+E50Q03UBrBsN++veUJoPJtsnUn3G6eolCCGTyAHCMHeCaWlyklfh7I2vffsBPF5hwAojg4Or61x6JrgpZj6RlOUR82q1kZqxqVnXSdMeMh/mZMMbeI6uumjFlRJFvbCrgrT1VFasrf7yfZj+Fv1ZcKKn75MYaQoa/YqFxJXKESCuNtlTlHyQ1KBr13S+Brno4rZCmSTVK9m789kEEOLVIHic5Jvtj18HCdMEV8NixC2+YmHseM+16kk/0x5z6FAgHPBncA0jvm/I7vzCZyYoGVkPq2MCtPCFtBgcISJpclaYW37obqRoJnZg//QaRe4kEVcl1ZJTbwubYQsrOhValnTPXv7/DyMtVbkoZojHgcyw6aUt5T+OaW3a2GrUVCC8XNCLsRJIa4R/osYKN8y7zVoxOnlEU85Rm80QghOP0O62yM9O+6qtNHk4Kd8AoTEozd5jFmpTmbDYBGznSrAMQGSdNbxlubvNVQRZiQ/JiroTQdKuEZ46MefzRsU3sw8SznuxIiDYFdYL5ImtlTP4lpo1YDSTdZVdcd0wSDAGIZZZVQ4JZxRFRtUESd/h3dn1Cvh/tGvRW8jOsnA0gz9mAUrsOg2Oc/WH4teOi6gsQl0YVsBHPnZHTUpsWE8GBDfA2Q4nPVzpKVQgVr3oK6zJmJNzSqXIH0npKnDZZwFvPRui3KFujCAB14bV6Nwhh6HwJ2QF5FvMniPmBYfR18pwnTs5DXQ/4dkuD3rZKnLqGTXg5C/lfumQeIf8j9pflTUyt7xSFPL/Re6rrMj+OG1FrNlm+yvBC5K1IFKJztkeqykABPuXacm7PbQRm0GOtwxBy/b0W8HpCfxnz9cB84PHfL8DVoQsHGT1Gvn+vqg5fBdq/1ijQKsFK68z94Qh88mPom6IZeCkQYJBQtuhkOytaP3ODJTraz+dOBgOG/V+Gs38nmXz3sdYeMvWSf75uNtxxzkc4M7NoNbYi4LPg2BTVmJzGHGf/MQIK0hRNE2a8tnNIEPzuQe3xfCiaA6PDwrosbOjmUNQdAwYyWKN84DnYP3XYBjwOTW4Ene/swco1ZAuF80p3zear+L8G1tcLNEogcWOHd4Lqva5BNLeo4onv9z2F4kqlViphrdmTnDfo0rh1rwUw9cOvrLPE7laXndRWZ+kOEYIE/O6NHSmxNtcBC/lRXF8O7Fp0hK1F3+0EYbv7QTwekTCjZww1189yhTz+BfSnCTgu3daUVSg3ypmvQVj0JEJn86MGQj5Jety5KCnrEBKt+xSiiyV3RwNJ+TdIwOJ/FhmawxjMV++ZnWy/ei6q19rM/zLib23g0WBNuCVHfDV/DbJvo9TFY7zCODd9BQDTpOfqb10oYKex2pat8ozixo08873uJJmPloG8Oa3cEJux/oEe2H4cLbwLA0gwcU8GPKushED2eHnQWLHOxq1QLF7U9Q2J2KTE/Nr6Ij23f2ekTwj+7o/B4aEJ3YK2dW+huUCU7A9HrhPm7AjzyGZ2ju+MN8ZXLsuBwEBqNOs9QDnAPUZOJgva/cBPI+I/iL7t/fUfUDKRCznJGMUDU8Rc2Ch2NwRZ9acQdkv76OXlOIo8j0XkJx2ld8IU8DzgOFjVY0u4pnUCPzfYBKwZDHnZD5z+hrGzYt7xGftKgK1Kh1zIol4LUnJo9VW/OtED9xYhwDNVDGx7hoxfjXyZ2JsC/LkHASord1A7J5GF2KE04i1lVHhuq1cR+AT69JRSXG39YP7HYqfX3aEw99xI1YjLJxLR9JxxRR5LpOnt/jvJbCA5bJNbmozUAlAI//FroC8TeTBoxXAxPYQf+SzO7tpHoR7ICoTEIBVFganch21U6CmCHKSLCq3XXXCsmsBJ4f8jJ+UR72x1MCaiheOPG+iGb/+FPQXJ8njWZuTy267NgKEs6E3sHBm0acgRBMf0Zh07exOZplmNqQbidOVxJ9t0GxYJ40BraLOGQGtFv/U+9ghFURaH6b9UpV7K/s1Lxos59HMlpSjZbyo8Phz4yPAl2Kc64eUDv3PK1lSfq4HlgMaWvlz9PAqD/DcOZRXx2dSfk7bV8ImiVbHYBx2tjRsIvx1ggjpVjj7KUOyJ9kf+nZmb/xDXS4WUcRGJ7Vy3XB/xpN5ngjqUYykAStygfGEeVqbsqcl0APrpRuv5cC//18AaVecKgrQNS305hXJDPtK02mMBH0BnauJibj9hD8hU2o2Z8k1hSughB6FqhyVVk+nW4mFUVj8IyiVel2tKz0IwUPyUNj1hJXsJyiqmWc9r92SNaXrUracPmNryS4OqHnFsVTt0tgovdQuP6+2JSeMSEvs8E+Yd1z4Asz1Fd1rwlly74JZZGQl6zJuUp6BoL070QOlWqxxrTBEYxnDJ45mKPcx5uI2j0ysD6bJpOEtiiH7gwLvL4zIeEcFsBQVnBngSE+Anp45qzVjSBxsFZzpA7WL5OGgEP2oT33T+94MUTRME7YSOu6HufvnIvo8XvWbUJzP/uTcoYDDLyYjtO61QYzaz/Pk/NaMNPlGN1ax3bdpbuE5La4jZ9Aa6XqVe5qmx01rzjjtooRg7KrjDqNyzcD+B5K69uAlCIVN//LVufikllAWqM2/0Evm0q9PEAKVVGV7vELn545zchFEBbnV6gdzNIR8/LM5Uvqo8htDEHxuyA5wOvjGmqCTL+gtqbRVWf0p9jhziwxxvTp6b6ahbnTYbOVvrr/n5CX4k51CBtf1HVg/edPUuDIwOqwhNv6eKcwiO3GwusUjJTCPguXVTq9WmLGORT7wYd9jyaOm24lTy64xJ1CQzlYz1vKUbp7thEjufDvmX+7cEgxJcwHNWb4J4jJ4+7aOWlNFlTtPFSItl4dQTUML8NgXRfF9aiE2nTdkXhOX77micV9kA/s/5Q7mtr7M5oObiIgZGXQGQrXLJZjecP6xU6nvQYH40wvG6q3gbOTBMJ6O48O329AanwqiViTMOAeYfHegePOmzF/pQPEiUJucMme7QPWfg1RrwaZWB5ZpGwCDgpMhkqy4uY0uq9XGAhlPx+/yYoUA/ozoLxNGNKKGSqb0QANE7Y0MuCdAsHz9vWRKEHqOJzfjTomvNF+CylFF4t9AUu+Rp7KVr87lG60LxfO2U5BaMuXIRlXnht7TDm1gjb8rxBmciSteXoNuexXl7eb/6BQ40V0jRhNQXzzSnlftqHxDg7FkBdW47fTNFx0Qy0vD8PmTX3Feh7lM9uibddAwRAaE88NC7BWFkNDtewwxSumRPGargAOM0X+aMBpLT3NoX6hlHkQsUFP86k1Q0l+N3qe2OpEZrwKIWBvYRJ74MnlA6xinduPf3e0PYUjYX2B53HhrKUXH7ljFwb1x0zCqlKsmDAK0zO+bXILrwHngKloLl09Erz1oTaxRXcBBzIfcGkI066vJY2tbrxMhiKdKGEERjL0UMU9xz4t9GgcjXTm0B4yFkmHRLmPm5NdwClQurwVvfKiR/Ayffd/xEHCn4QSV2uidxVZVpiVD3ii1GaId6Vtcu3yqR3uHX5ynyZI8zhea5crunKjon3B/wDi1cdItiHWsE8rdJIKT2QxorCvt6ChxNLPawLDWMK65k0hH7dkhFyh1zkQRgdOPZRA3b5H7DqFODebDJSJEwh4xrqSsyjJZTm/3NBcX5P2qLhm+JbTKPMnZJKwQGruJcCu9Yecy8D+60QoZPNWhg9A8z4g+c+PHtusebHSBFVZAxVvG73l0BjmKkoVShwlvMsf2gAfCsKSNIGLjzJppVOek96iDYUIhgGwAxTFme/yhoUlxlwuDsZS9QShsIk/Ybl4JYi/rgWRsMLFdPFVa4t2zRWPFSzx94Av3jKihXmbs4gN8ui3mC/BYxYfVp+3l7f15IsF8RpYLC/0mAhc5EGkp/1UnYNcyZQudptJ8W9I9aWsD7f+gkUsGDN/ZWqP3zWGENk3tz1HQkHp1dqnWGXBp/sAnSTNNUNvBuf5i8TT5C2g9bCW2+BPB76I7W/bGtmzQO5/xlP449sAS7+wyGEdr7Or8L4305FSShn2ujRTdLOnrEo9zfLGzXBu7IrcM16bgumBhro1zLyhG805oqMSpd/QuoloHr7mVzl5dfVXRPG01tyh+F9RhtVpFSq91fbX0Ienu7FMkcBoc0AD+6xWcs7w4+QwDZHJZVxYBT8HVYoNBCuhePudjmxLqLipE6GrPnyMtkOu/zSoyzFdCvLLhvhFRjYD8+K1jMKKIfDpmnHyDQm3Am3sTie/oMdcpwiyUBNewlg0YeNA/4vmxW9bTy2jX00A+Odvxajekag5mvdJZiEZhq5qk+xe/Nz0h8ycZdagExcmZ5MJWx0NwG+8D2GoBzGc+r2LpW7lRCAV4WK7admEiFzCMWY730bzTUHoqlooRuf3BPqxxCiKr2ToFsPdYIDKhuyPdAyfwT4xFjb+esLDTIdOfbcxDBff6wEhm8d/Bv5AmkDbPH79XWWPWMfuytg26qPnzrSDUPLa+focM8sebv49QA1fTrolkclJbUAHVY1Iuknh+5oOBhtsAJlBy56C7zByqs0ERjdjMgmehtGpMtXT5/ZiQr792bmafC8zWpVpcPZPDgfGG4sDTEmLKq6XIjCz75X/Srtx58ZJanioFxmbdxlob8yFEnQB4rOaODVgkCULzRmY1PSGZEv9nslHuz/mAI/2frgCpsb0Pev5TkKICczfsJQ8ZIkcstPfJvYoD7+qQQm0m0NOIWKP82SKwGavcOToOAjlO6OP6AeD7jXLvFIQt7SlioIryaL5mEtBLXfYBDHWR2ZS5E3uCSEPZB3wlIZZQWIUgutm2fjbXTHQ3TZSMj/T1zPp3IrGzDl9JlGRwCpj+RWzqEwJzA9EtoO4jLJ5iIYwg+M4kGc6an08m90MJLv7W6DghIsonhGZ5M+vk0EY0irlRZkHISaLkdcHMTzpDEMO3tcotDki4HA+W53BBF1WekS7uoSE0KXXPeFxJ/gpBsLife5LkSA7iICKLYK2iEubzNJUitX8zYp3VVTLBGwnfXzonwo6k4jN+V6aahnd94RxKa9RPwelTj2lN+9a0OM0sqsPDFnTwOo41TurfzVsiEizxHVjwJveeytS60DwyiN8BbsQERcIsJo43EBUKdmzFhTiMfsa+TRWIcuvAVnSAxNExUVdFz4nJ0VcrJqchM4cg5laAFMrmLDi5oifzNo5JRva0dQvfeq0LAIbw332/03eOK1TnCnxWMcd7rYyi9txJ4Ml/YuDzYr1syVxOzqLB9tllECoz/7F8c1qdurXeDS/Qq2LS8A+BfvQeKjWQCUN9o3wgZXG4cT3YRBAZ58gQlkUiQTxQB0+SdPzWgUq/n42mWgDU5Rgu7P3h1/8g6Ruqs4V/ftycXgcWii4ljA/mK5CS5uS7PkPhJhcg6GVTpaRE89B/68ohVPoN/lg6PZPLyBq68zI6h2vxfztbNuRoqbWYs88JqMEfjAtzM1NfKff4ZyPEfYQe3PI0j+1/nXSTULE/MLtQiSCqNP/u90I9Wjv5rQ50zJOy2ajY75DbZxwXHmf/oomALOZIR1n47OKl4xTN+8y6xmmgHLA1r/COfuZZbzCV05xz2rnFBwCnXe1yEvk8g7Vk34JkNH0D3BAW1/g6W7sTYQ9ldO4YUgpokcZ9L4kf25+4xNlpWtPl+FDTyvGv2dA/VEyRjCA36pWe7lJFxXQZZk1kjrBlUxbFttrnuKPqIzSoAdu6oXCmCK67TT1lOwg40A0XojhBYpuqdtxEQbPZVl9Z3FSFo9TKtJ08R+nSydnFbXSejfJWld0PlF9N04uR2DMxtId2IOhdMu5CwQ24nXWQzN5IgFfg6Fqv469ZVmIGrhaZEfsjuHB//B8upYA55gwQDUqJTzAifjRx8iYlFtXSpkpyLcrNSehnZATtE7jEQ3hHEkvgVOUuolPC4pemAmxPmAdK15Elbp3PrhXUbAJX6Qhkki4TyKeLZOMLnpd22TB74BkIquAl3wukkumAQsKPG44tZKSY0y56OUl/vo+cXdPlmm8elCWobAQ4aFPwz4T3QXsUhxrM1mF1zanmChEdwIrr9HS1xvYJc/cjajFJc68RoyCDCwDVnzlvaDovsT/kLm3yzOyRwBWGJOtlvTpcpSYwfascyCG6ayyx9lkUtjDSZYm3An/JwD5O7f/wICtIjmL"/>
-<script src="https://netbanking.bankalfalah.com/ib//ib/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvuuyC4Pae4eU7TFVz2xyLHmQ_Aad5o5RoAnHCl7yetFaVQTHZNH0jpuHe2Q65b1PvQcNbsO5NjcwuEFpaKOqzSBIMSnP-VsSeqpbPbCeMZHhEthwXoxt08gfHVe8H8NiiACMb_1GbnrNh3G3iwAou2k1&amp;t=ffffffffaa493ab8" type="text/javascript"></script>
-<input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="00CD83E2"/>
-<input id="__VIEWSTATEENCRYPTED" name="__VIEWSTATEENCRYPTED" type="hidden" value=""/>
-<input id="__EVENTVALIDATION" name="__EVENTVALIDATION" type="hidden" value="YOCrelCaU7O4udgZ5vItYJK+0KKXCMU3t5ViStxesI8vQQrVI/xcCerx51nir3u24FryMIdpyrxaSbxpMkUREL+lP7WaEQzYDx7pokhqHNQYcZ88C+5beUMC/8oX4lDtUZh/aXkjgWzxmDUMnjQCLyZ5c2dlwc521yeRh5JNsSJUmav2tQyZIbr2fNWFqIafGqFUY5bOY66OGcu3lxsTgf2h56M6jteVDJPpV4FLrQp+XlksScGhQnzLEEif/UAP+Va7u8eMLPC5IW1ygekp5jtRdXWU2vICzE/OFDpgkZiplRvOJRFptEnjwpGEVEVV2o1nh+1LxTqHUcW2Fta+Em8dNXZE5uB6W6i1oQmcj7EtIYWHZ4Ehji35aS/AnQqAXkbJ1rB31KrtmoLPWtX0IeOKlhqwUBvvDUebmTHaplbOPsnCk54gLtwtzKykmYkF3kdwo90P2B2Pc5EBeaOdvDBhoZAc3nWEkNDmJkSWrKdxRQSKvaOfLTm1Ld4TRdKrEZixgv7ovmidpoNprMbPKfqNn0LIBalWiT6G4jfiAcoGdRkcoyaFOpSLbVfaFTR3Ms22Nq5Qe9CE3OBjk835tW1DsIbXrq2bSet/2OsECSpdV/e8e+Ajqp6ieYmXVa0WGJPdPPwyimT4k+z8jXYgyffAl2agEyhEojQKtbXabcpqUhGMd6X9cbfLv7soOwXUqbZl6N1a0HaqkPbd0ttNyPLgtLC3BQxVlIbNuD9w/3RtnKwh8JfGFQXMCPJtg3GpIyypOSjJmuk6jZSeJMaAt/RpPqwN+lsWgCFFxTWCAwJilnb80IiB2CN2mIGMpTrua53BF/LXB3grqsZe84GrOa9nXytYGUtaftqp1jxPDW4ME2uHIQuA0xMDeSOxxG+MA4Cj1+5H0+uI0xbT1LAKMImKMXeu6wNsiUJFbHHi+uyUyIxikrJlTYnBb6xOskIi/EVNny2qQy/ailRIRfLbDlbBV2ABfSwTVaGTtQZ42upX1pchWPQPH3TaEYfmlLKaRu/9HZtVqcciUbpVXvPPDRNvAIKiva8QUGRT3BM4QR+HrXJR/6Ko7aORxuBdd9vCe5qiWW7NsER2KYJe2Yka/ddcF8iggCX0c7CC+gG665yRPrChLPkU/yrlpMy0mCb2/7Z9NQ1MwUgFoc0fu2RlTxifOp25fr9fpPNKS9aLrxFzJKM2jKgw4FBwyBb3zHoSM/XGnN5//pToU1XGbSp8YA=="/>
-<div>
-<div class="live-btn" id="ChatDiv">
-<a href="javascript:void(0)" onclick="callbackWindow = window.open('https://webchatcc.bankalfalah.com/EWC/home.html', 'CallBack', 'width=438, height=450, resizable=0, status=0, toolbar=0, menubar=0');">
-<img src="https://netbanking.bankalfalah.com/ib/assets/images/live-chat.png"/>
+</link></meta></head>
+<body class="body-b4login" ng-app="AngularApp" ng-cloak="" ng-controller="MainController" ng-init="ProcessTermsCondition(); InitializeLayout('HTTPS://www.hblibank.com.pk/', '','010001', 'CCDC930C0ABAAC01D4620C9187A54183470BCA650049181FDC1CE87CDFC386AA5A7032AFC6730E4E2CAC3153C20C7A69190FE5728B613400DEF27B497EF447C3D7F2190985C0B51E86822169FD744E1EE89F45C54C34C9552D9A4CE6D9B4AB3B4F9A555C9B3432C8EF60E7B7516BFB6E13F3E41E1B51E00B72821A28614992C9',''); ShowDigitalAccountSelection=false;" onload="zoom()">
+<input id="challenge" name="challenge" type="hidden" value="abc"/>
+<input id="hdAntiForgeryToken" ng-init='AntiForgeryToken="CHeevIXNL370JgtqMLLvJCfqnVcVz_jSdTwOrmP_PbIBqudo37W82HQQlIN7B0kLR9knFbcovUkpaJsHAC5LA7BhgmpW9e0ptrz3Xne4cvs1:y0eyRH3amTUPOiGWKo53IxrWPGa6ED1TzEodCrtOcuizu9CnAXzk9r45RZ3yPl50i_XmjpW1daFsQRT8eJQhHcau7hFNcPKSI6_wXlQqW441"' ng-model="AntiForgeryToken" type="hidden" value="CHeevIXNL370JgtqMLLvJCfqnVcVz_jSdTwOrmP_PbIBqudo37W82HQQlIN7B0kLR9knFbcovUkpaJsHAC5LA7BhgmpW9e0ptrz3Xne4cvs1:y0eyRH3amTUPOiGWKo53IxrWPGa6ED1TzEodCrtOcuizu9CnAXzk9r45RZ3yPl50i_XmjpW1daFsQRT8eJQhHcau7hFNcPKSI6_wXlQqW441">
+<div style="display:none">{{RemovePlaceHolder()}}</div>
+<div class="preloader" ng-show="loading">
+<div class="display-table-loading"><div>{{loadingMessage}}</div></div>
+</div>
+<div class="login-slide carousel slide" data-ride="carousel">
+<div class="carousel-inner">
+<div class="carousel-item active">
+<div class="slides two"></div>
+</div>
+<div class="carousel-item">
+<div class="slides four"></div>
+</div>
+</div>
+</div>
+<nav class="navbar navbar-fixed-top">
+<div class="navbar-header">
+<a class="navbar-brand" href="javascript:void(0)" ng-click="ShowDigitalAccountSelection = false"><img src="https://www.hblibank.com.pk//Assets/img/hbl-logo.svg"/></a>
+</div>
+<div class="band float-right">
+<div class="side-bar order-first order-md-first col-12 col-xl-2 ml-md-auto">
+<div class="round-Cross-Btn" confirmed-click="ShowDigitalAccountSelection=false" ng-confirm-click="Are you sure you want to cancel the request?" ng-show="ShowDigitalAccountSelection"><i class="fa fa-close"></i></div>
+<div class="band float-right">
+<div class="side-bar pre order-first order-md-first col-2 col-xl-2 ml-md-auto text-right">
+<span class="tutorialHeader">
+<a href="#" ng-click="GetFilterlist('prelogin', true)">
+<img src="https://www.hblibank.com.pk//Assets/img/tutorial-menu-white.svg"/>
+<span class="tutorials">Tutorials</span>
 </a>
-</div>
-<div id="updateProgress" style="display:none;">
-<div style="position: fixed; text-align: center; height: 100%; width: 100%; top: 0px; right: 0; left: 0; z-index: 999999999; background-size: 200px; background-color: #fff;">
-<img alt="Loading ..." id="imgUpdateProgress" src="https://netbanking.bankalfalah.com/ib/assets/images/alfa-loader.gif" style="height: 222px; width: 194px; position: absolute; top: 30%; left: 45%;" title="Loading ...">
-</img></div>
-</div>
-<script type="text/javascript">
-
-        rules.push({
-            formId: 1,
-            id: 'MainContent_LoginUserName',
-            required: {
-                value: true,
-                error: "Username Required"
-            },
-            regex: {
-                exp: alphaNumericRegex,
-                error: "Only Alphanumeric characters are identified"
-            },
-            maxLength: 20
-        },
-        {
-            formId: 1,
-            id: 'MainContent_LoginPassword',
-            required: {
-                value: true,
-                error: "Password Required"
-            },
-
-            maxLength: 10
-        });
-        forms.push({
-            id: 'MainContent_LoginSubmit',
-            value: 1
-        });
-
-
-        Sys.Application.add_load(addElementAttributes);
-    </script>
-<script>
-
-        function openSuccesstrans() {
-            closebanner();
-            $('#ModalSuccess').modal({ backdrop: 'static', keyboard: false });
-            $('#ModalSuccess').css('visibility', 'visible');            
-        }
-
-
-   
-            $(document).ready(function () {
-                if ($('#ModalSuccess').is(':visible')) {
-                    window.setTimeout(function () {
-
-                        // Move to a new location or you can do something else
-                        window.location = "Login.aspx";
-
-                    }, 10000);
-
-                }
-
-                $('#MainContent_txt_otac').keypress(function (event) {
-                    if (event.keyCode == 13) {
-                        $('#MainContent_btn_ConfirmOtac').click();
-                    }
-                });
-            });
-            
-            function closebanner() {
-                
-                $(".popScroll").fadeOut("slow", function () {
-                    // Animation complete.
-                });
-                $("div").remove(".popScroll");
-            }
-
-            function openCustomerRatingModal() {
-                closebanner();
-            $('#Div1').modal({ backdrop: 'static', keyboard: false });
-            $('#Div1').css('visibility', 'visible');
-        }
-
-            function openWarningtrans() {
-                closebanner();
-                $('#fadeoff').remove();
-            $('#ModalError').modal({ backdrop: 'static', keyboard: false });
-            $('#ModalError').css('visibility', 'visible');
-            $('#ForgotPasswordModalError').modal({ backdrop: 'static', keyboard: false });
-            $('#ForgotPasswordModalError').css('visibility', 'visible');
-        }
-
-        function openErrorMessagetransm() {
-            closebanner();
-            $('#myModalotac').modal({ backdrop: 'static', keyboard: false });
-            $('#myModalotac').css('visibility', 'visible');
-
-        }
-
-        //$(document).ready(function () {
-        //    $('#MainContent_txt_otac').keypress(function (event) {
-        //        if (event.keyCode == 13) {
-        //            $('#MainContent_btn_ConfirmOtac').click();
-        //        }
-        //    });
-        //});
-        function OnClickClear() {
-            document.getElementById('MainContent_txt_otac').value = "";
-            }
-
-        $('body').on('click', function (e) {
-            $('#ModalError').modal('hide');
-        });
-function disablebtn() {
-
-
-            var btn1 = "#MainContent_btn_resendOtac_Click";
-            $("#MainContent_btn_resendOtac_Click").attr("disabled", true);
-            setTimeout(function () { enableSubmit(btn1) }, 60000);
-
-            var btn2 = "#MainContent_btn_sendvoiceOtac";
-            $("#MainContent_btn_sendvoiceOtac").attr("disabled", true);
-            setTimeout(function () { enableSubmit(btn2) }, 60000);
-
-
-        }
-        function CheckNumeric() {
-            return event.keyCode >= 48 && event.keyCode <= 57 || event.keyCode == 46;
-        }
-    </script>
-<div class="home-content">
-<div class="container">
-<div class="slider_container">
-<div class="flexslider">
-<ul class="slides">
+</span>
+<div class="service-float d-xl-block">
+<span class="float-head"><i aria-hidden="true" class="fa fa-bars"></i></span>
+<ul>
 <li>
-<a href="http://www.freshdesignweb.com">
-<img alt="" src="https://netbanking.bankalfalah.com/ib/assets/images/slider/slide1.jpg" style="width:100%" title=""/>
-<div class="flex-caption">
-<div class="caption_title_line">
-<p>Click Here</p>
-</div>
-</div>
+<a href="#" onclick="window.open('/PreLoginService/BranchLocator')">
+<img src="https://www.hblibank.com.pk//Assets/img/locator.svg"/>
+<span class="show-on-hover small">HBL Locator</span>
 </a>
 </li>
 <li>
-<a href="http://www.freshdesignweb.com">
-<img alt="" src="https://netbanking.bankalfalah.com/ib/assets/images/slider/slide2.jpg" style="width:100%" title=""/>
-<div class="flex-caption">
-<div class="caption_title_line">
-<p>Click Here for More Details </p>
-</div>
-</div>
+<a href="#" onclick="window.open('/PreLoginService/DealsDiscount')">
+<img src="https://www.hblibank.com.pk//Assets/img/deals&amp;discounts.svg"/>
+<span class="show-on-hover">Deals &amp; Discounts</span>
+</a>
+</li>
+<li>
+<a href="#" onclick="window.open('/PreLoginService/Rewards')">
+<img src="https://www.hblibank.com.pk//Assets/img/reward-programs.svg"/>
+<span class="show-on-hover">Rewards Program</span>
+</a>
+</li>
+<li>
+<a href="#" onclick="window.open('/PreLoginService/InstallmentPlan')">
+<img src="https://www.hblibank.com.pk//Assets/img/installment-plan.svg"/>
+<span class="show-on-hover"> HBL Installment Plan </span>
+</a>
+</li>
+<li>
+<a href="#" onclick="window.open('/PreLoginService/FAQs')">
+<img src="https://www.hblibank.com.pk//Assets/img/customer-support.svg"/>
+<span class="show-on-hover">Customer Support</span>
+</a>
+</li>
+<li>
+<a href="https://www.hbl.com/resources/schedule-of-bank-charges" target="_blank">
+<img src="https://www.hblibank.com.pk//Assets/img/sobc-prelogin.svg"/>
+<span class="show-on-hover">Schedule of Bank Charges</span>
 </a>
 </li>
 </ul>
 </div>
 </div>
 </div>
-<div class="content">
-<div class="content-wrapper">
-<img class="overly-img" src="https://netbanking.bankalfalah.com/ib/assets/images/slider-overlay.png"/>
-<div class="login-content">
-<h1 class="heading">Welcome to Alfalah<br/>
-                        Internet Banking</h1>
-<p>
-                       Bank Alfalah offers you convenience of banking from home or your office because we understand that your time is important.
-                    </p>
-<div class="login">
-<div class="login-details">
-<div class="login-form" id="login-form">
-<div>
-<input class="login-filed user-name" id="MainContent_LoginUserName" maxlength="11" name="ctl00$MainContent$LoginUserName" placeholder="Username" type="text"/>
-<input autocomplete="off" class="login-filed user-password" id="MainContent_LoginPassword" maxlength="10" name="ctl00$MainContent$LoginPassword" placeholder="Password" type="password"/>
-<input class="submit" id="phishpipeline" name="ctl00$MainContent$LoginSubmit" type="submit" value="Login"/>
 </div>
 </div>
-<span><a href="ForgotPassword.aspx">Forgot Password?</a></span>
+</nav>
+<div class="circle-container">
+<div class="custom-circle"></div>
+</div>
+<div ng-controller="LoginController" ng-init="GetLocation(false)">
+<div class="login-wrapper">
+<div class="container-fluid">
+<div class="row">
+<div class="login main col-12 col-lg-5 col-xl-5">
+<div class="form off">
+<div class="vertical-container">
+<div class="vertical-cell">
+<div class="disc" ng-show="!ShowDigitalAccountSelection">
+<h2>You can  login to HBL InternetBanking using HBL Mobile login credentials</h2>
+</div>
+<div class="row justify-content-center">
+<div class="form-info col-12 col-md-1 col-lg-2 col-xl-2" ng-show="!ShowDigitalAccountSelection">
+<span class="log-in">Login</span>
+</div>
+<form action="/login" class="col-12 col-md-8 col-lg-9 col-xl-8 enable-ent mb-4" id="phishpipeline" method="post" name="MainForm" ng-show="!ShowDigitalAccountSelection">
+<div class="form-fields">
+<div class="form-group">
+<label for="Username">Login ID </label>
+<input autocomplete="off" class="form-control forusername" maxlength="30" name="Username" ng-blur="MainForm.Username.ShowValidation=true" ng-model="obj.UserName" ng-required="true" onkeypress="return alphaNumeric(event)" placeholder="Enter login id" readonly="" type="text"/>
+<div class="ValidationError" ng-messages="MainForm.Username.$error" ng-show="MainForm.Submited || MainForm.Username.ShowValidation" style="text-align: left;"><p ng-message="required">This field is required</p>
+<p ng-message="maxlength"> Length should be less than 30</p>
+</div>
+<a class="btn forgot" href="/Registeration/ForgotLoginId" tabindex="-1">Forgot Login ID?</a>
+</div>
+<div class="form-group" ng-init="loadScript()">
+<div style="position:relative">
+<label for="Password">Password </label>
+<input autocomplete="off" class="form-control forpassword" draggable="false" id="txtPassword" maxlength="30" name="Password" ng-blur="MainForm.Password.ShowValidation=true" ng-init="StopPaste('Password')" ng-model="obj.Password" ng-required="true" ondragstart="return false" onload="init()" placeholder="Enter password" readonly="" type="password"/>
+<div class="ValidationError" ng-messages="MainForm.Password.$error" ng-show="MainForm.Submited || MainForm.Password.ShowValidation" style="text-align: left;"><p ng-message="required">This field is required</p>
+<p ng-message="maxlength"> Length should be less than 30</p>
+</div>
+<a class="btn forgot" href="/Registeration/ForgotidPassword" tabindex="-1">Forgot Password?</a>
+<div class="form-check form-check-inline eye-container">
+<input class="form-check-input" id="showPassword" type="checkbox" value="option1"/>
+<label class="form-check-label open" for="inlineCheckbox1"><i class="open fa fa-eye"></i><i class="close fa fa-eye-slash"></i></label>
 </div>
 </div>
-<div class="rigester-now">
-<h3><a href="TermsConditions.aspx">Register Now</a><a href="https://alfamall.com"><img src="https://netbanking.bankalfalah.com/ib/assets/images/alfamall_logo.png" style="width: 27%;margin-left: 72px;"/></a></h3>
-<p>
-                            Please do not click on any email or message links requesting  personal details.
-                        </p>
+</div>
+<div class="form-group button-center eq-btn-size">
+<a class="btn negative" href="/Registeration/Register" tabindex="-1">Sign up</a>
+<button class="btn submit-btn positive" id="phishpipeline" ng-click="MainForm.Submited=true; !MainForm.$invalid ?(ProcessLogin()):('')" ng-disabled="isDisable" type="button">{{inProgress?'Logging In..': 'Login'}}</button>
+</div>
+</div>
+</form>
+<div class="security col-12 mb-5" id="panelDigitalAccountSelection" ng-show="ShowDigitalAccountSelection">
+<div class="row">
+<div class="col-12 text-center">
+<p class="" style="padding:10%;">
+                                                    Select your Preferred Digital Account
+                                                </p>
+</div>
+</div>
+<div class="row">
+<div class="col-6 col-sm-4 col-lg-5 offset-sm-2 offset-lg-1" style="border-right: 1.5px solid #7E868A;">
+<a class="raastBtn" href="https://roshandigital.hbl.com/applyebancroshandigitalaccount">
+<img src="https://www.hblibank.com.pk//Assets/img/RDA.svg" style="height:50px;width:50px;"/>
+<small>Roshan Digital Account</small>
+</a>
+</div>
+<div class="col-6 col-sm-4 col-lg-5">
+<a class="raastBtn" href="https://www.hbl.com/personal/digital-banking/hbl-digital-account">
+<img src="https://www.hblibank.com.pk//Assets/img/Digital Domestic Account.svg" style="height:50px;width:50px;"/>
+<small>
+                                                        Digital Domestic Account
+                                                    </small>
+</a>
+</div>
+</div>
+</div>
+<div class="advisory security col-12" id="panelOpenDigitalAccount" ng-show="!ShowDigitalAccountSelection">
+<div class="display-table">
+<div class="display-table-cell" style="padding-left: 78px !important;">
+<a class="humwatan-link" href="" ng-click="$parent.ShowDigitalAccountSelection = true">
+<span>Click here</span>
+</a> to open <span>Digital Account</span>
+</div>
+</div>
+</div>
+<div class="promo mobile col-12 mt-4 mb-5">
+<div class="head">
+<h2>Download HBL Mobile</h2>
+</div>
+<a class="playstore" href="#" onclick="window.open('https://play.google.com/store/apps/details?id=com.hbl.android.hblmobilebanking&amp;hl=en')"> Google Play</a>
+<a class="apple" href="#" onclick="window.open('https://itunes.apple.com/pk/app/hbl-mobile/id1123585628?mt=8')">App Store</a>
+<a class="huawei" href="#" onclick="window.open('https://appgallery.huawei.com/app/C101066241')">HUAWEI AppGallery</a>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="myModal" role="dialog" tabindex="-1">
-<div class="modal-dialog">
+</div>
+</div>
+</div>
+</div>
+<div class="login-tnc">
+<h2><a href="#" onclick="window.open('HTTPS://www.hblibank.com.pk/Registeration/termscondition')">Terms and Conditions</a></h2>
+<p>Copyrights © 2023 HBL All Rights Reserved</p>
+</div>
+<div aria-hidden="true" class="tnc-popup custom-pop modal fade toggleTncDiv showEnglish" data-backdrop="static" data-keyboard="false" draggable="false" id="popup1" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
 <div class="modal-content">
-<div class="modal-header">
-<button aria-hidden="true" class="close" data-dismiss="modal" id="phishpipeline" type="button">
-                            ×
-                        </button>
-<h4 class="modal-title" id="myModalLabel">title
-                        </h4>
-</div>
-<div class="modal-body">
-                        something
-                    </div>
-<div class="modal-footer">
-<button class="btn btn-default" data-dismiss="modal" id="phishpipeline" type="button">
-                            close
-                        </button>
-<button class="btn btn-primary" id="phishpipeline" type="button">
-                            save
-                        </button>
-</div>
-</div>
-<!-- /.modal-content -->
-</div>
-<!-- /.modal -->
-</div>
-<div align="center">
-<div class="modal" id="Div1" role="dialog" style="visibility: hidden">
-<div class="popupContainer">
-<section class="popupBody">
-<div class="transaction-popup">
-<p>Based on your experience today, how likely are you to recommend Alfalah Internet Banking to a colleague or a friend?</p>
-<div class="rateyo-readonly-widg" id="rateYo1"></div>
-<br/><br/>
-<p class="popup-n-v"><a href="javascript:__doPostBack('ctl00$MainContent$CustomerRatingSubmit','')" id="MainContent_CustomerRatingSubmit">Submit</a> | <a href="javascript:__doPostBack('ctl00$MainContent$CustomerRatingLater','')" id="MainContent_CustomerRatingLater">Later</a></p>
-<input id="MainContent_CustomerRatingHiddenField" name="ctl00$MainContent$CustomerRatingHiddenField" type="hidden"/>
-</div>
-</section>
-</div>
-</div>
-</div>
-<div id="MainContent_updatepanel111">
-<div align="center">
-<div class="modal fade" id="ModalError" role="dialog" style="visibility: hidden">
-<div class="popupContainer">
-<div class="popupBody">
-<div class="pop-text">
-<p>
-<span id="MainContent_LoginErrorModalLabel">-</span>
-</p>
-</div>
-<div class="pop-icon">
-<img alt="" src="https://netbanking.bankalfalah.com/ib/assets/images/warning-icon.png"/>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="modal fade" id="ModalSuccess" role="dialog" style="visibility: hidden">
-<div class="popupContainer">
-<section class="popupBody">
-<div class="pop-text">
-<p>
-<span id="MainContent_lblsuccess"></span>
-</p>
-</div>
-<div class="pop-icon">
-<img alt="" src="https://netbanking.bankalfalah.com/ib/assets/images/success.png"/>
-</div>
-</section>
-</div>
-</div>
-<div class="modal fade" id="myModalotac" role="dialog" style="display: none">
-<div class="modal-dialog" style="tophttps:///netbanking.bankalfalah.com/: 28%">
-<!-- Modal content-->
-<div class="modal-content">
-<div class="modal-header">
-<h4 class="modal-title" style="text-align: center;"><b>Device Registration</b></h4>
-<p class="modal-title" style="text-align: center;">
-                        An OTAC for Device Registration has been sent to your mobile number and email address registered with Bank Alfalah.
-                    </p>
-<p class="modal-title" style="text-align: center;">
-                        Please enter the OTAC below to continue using Internet Banking on this device.
-                    </p>
+<div class="modal-header-for-terms">
+<h5 class="modal-title">
+<div class="eng-text">Terms and Conditions</div>
+<div class="urdu-text">شرائط و ضوابط</div>
+<button class="urdu btn toggleTncBtn" ng-cloak=""><div class="urdu-text">اردو</div><div class="eng-text">English</div></button>
+</h5>
 </div>
 <div class="modal-body">
-<div style="display: flex;">
-<div class="col-md-12">
-<div class="form-horizontal">
-<div class="form-group" style="margin-bottom: 0;">
-</div>
-<div class="form-group">
-<label class="col-sm-12" for="email">Enter OTAC:</label>
-<div class="col-sm-12">
-<input autocomplete="off" class="form-control" id="MainContent_txt_otac" maxlength="10" name="ctl00$MainContent$txt_otac" onkeypress="return CheckNumeric()" type="password"/>
-<label>First part is sent to your Email Address &amp; the second part to your Mobile Number</label>
+<div class="row">
+<div class="col">
+<h2></h2>
+<div class="tnc-detail scrollby" style="position:relative !important; ">
+<div ng-bind-html="LicenceData.tnc"></div>
 </div>
 </div>
-<div class="actions">
-<input class="red-btn v-small quick-action" id="phishpipeline" name="ctl00$MainContent$btn_ConfirmOtac" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$MainContent$btn_ConfirmOtac", "", true, "AmountValidation", "", false, false))' type="submit" value="Confirm"/>
-<input class="red-btn v-small quick-action" id="phishpipeline" name="ctl00$MainContent$btn_resendOtac" type="submit" value="Resend OTAC"/>
-<input class="red-btn quick-action" id="phishpipeline" name="ctl00$MainContent$btn_sendvoiceOtac" type="submit" value="Resend SMS part of OTAC via Call"/>
 </div>
-<div>
-<span style="padding-top: 20px; margin-left: 20px; color: brown;">
-</span>
+<div class="row" ng-if="postObj.TncErrorMessage!=null &amp;&amp; postObj.IsTncErrorMessage">
+<p class="text-danger"> {{postObj.TncErrorMessage}}</p>
 </div>
+</div>
+<div class="modal-footer">
+<button class="btn decline negative" data-dismiss="modal" style="display:block;" type="button">Cancel</button>
+<button class="btn accept" ng-click="UpdateTNC();" style="display:none;" type="button">Agree</button>
+<button class="btn accept-dis" data-placement="top" data-toggle="tooltip" title="Please scroll down to read and agree" type="button">Agree</button>
+</div>
+</div>
+</div>
+</div>
+<div aria-hidden="true" class="tnc-popup custom-pop modal fade toggleTncDiv showEnglish" data-backdrop="static" data-keyboard="false" draggable="false" id="LoginTNCPopUp" ondragstart="event.preventDefault();" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content rounded">
+<div class="modal-header-for-terms">
+<h5 class="modal-title">
+<div class="eng-text">Terms and Conditions</div>
+<div class="urdu-text">شرائط و ضوابط</div>
+<button class="urdu btn toggleTncBtn" ng-cloak=""><div class="urdu-text">اردو</div><div class="eng-text">English</div></button>
+</h5>
+</div>
+<div class="modal-body">
+<div class="tnc-detail scrollby">
+<div ng-bind-html="postedObj.LoginTNCHtml"></div>
+</div>
+<div class="row" ng-if="postedObj.TncErrorMessage!=null &amp;&amp; postedObj.IsTncErrorMessage">
+<p class="text-danger"> {{postObj.TncErrorMessage}}</p>
+</div>
+</div>
+<div class="modal-footer rounded-bottom">
+<button class="btn decline negative" data-dismiss="modal" ng-click="UpdateLoginTNC('0');" style="display:block;" type="button">Later</button>
+<button class="btn accept positive" ng-click="UpdateLoginTNC('1');" style="display:none;" type="button">Agree</button>
+<button class="btn accept-dis positive" data-placement="top" data-toggle="tooltip" title="Please scroll down to read and agree" type="button">Agree</button>
+</div>
+</div>
+</div>
+</div>
+<div aria-hidden="true" class="tnc-popup custom-pop modal fade toggleTncDiv showEnglish" data-backdrop="static" data-keyboard="false" id="TNCMAcceptMsg" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-body">
+<div class="row">
+<div class="col">
+<h2></h2>
+<div class="tnc-detail scrollby" style="position:relative !important;">
+<p>{{postedObj.TNCDueDateExpMessage}}</p>
 </div>
 </div>
 </div>
 </div>
 <div class="modal-footer">
-<button class="btn btn-danger" data-dismiss="modal" id="phishpipeline" onclick="OnClickClear()" style="color:#ffffff" type="button">Close</button>
-</div>
-</div>
-</div>
-</div>
-<script>
-
-        $(function () {
-
-            var rating = 0;
-
-            $("#rateYo1").on("rateyo.init", function () { console.log("rateyo.init"); });
-
-            $("#rateYo1").rateYo({
-                rating: rating,
-                numStars: 5,
-                precision: 2,
-                starWidth: "40px",
-                halfStar: true,
-                spacing: "5px",
-                multiColor: {
-
-                    startColor: "#ffffff",
-                    endColor: "#ffffff"
-                },
-                starSvg: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">' +
-                              '<path ' +
-                               'd="M 9.0958932,0.07457946 -0.25177389,19.368657 7.6572396,14.733924 c 0.7993186,-0.467413' +
-                               ' 1.8248812,-0.243557 2.3573624,0.513975 l 1.565207,2.226033 c 0.842299,1.196291 2.215289,' +
-                               '1.908455 3.677223,1.906067 3.680208,-0.003 5.791029,-4.191198 3.606783,-7.150885 ' +
-                               'L 9.8492466,0.00354196 c -0.089543,-0.121181 -0.2220658,-0.1796822 -0.3545892,' +
-                               '-0.1796822 -0.1599833,5.969e-4 -0.3187725,0.0865581 -0.3987642,0.2507197"' +
-                              '/>' +
-
-                    '</svg>',
-                onInit: function () {
-
-                    console.log("On Init");
-                },
-                onSet: function () {
-
-                    console.log("On Set");
-                }
-            })
-            .on("rateyo.set", function () { console.log("rateyo.set"); })
-            .on("rateyo.change", function () { console.log("rateyo.change"); });
-
-            $(".rateyo").rateYo();
-
-            $(".rateyo-readonly-widg").rateYo({
-
-                rating: rating,
-                numStars: 5,
-                precision: 2,
-                minValue: 1,
-                maxValue: 5
-            })
-            .on("rateyo.change", function (e, data) {
-                document.getElementById('MainContent_CustomerRatingHiddenField').value = data.rating;
-                console.log(data.rating);
-            });
-        });
-    </script>
-</div>
-<div class="footer">
-<div class="main-menu">
-<div id="tabs">
-<ul class="upper-tabs">
-<li class="first-li">
-<a href="#tabs-1">
-<div class="tab-icons tab-locator"></div>
-                                LOCATOR
-                            </a>
-</li>
-<li class="first-li">
-<a href="#tabs-2">
-<div class="tab-icons tab-offers"></div>
-                                OFFERS
-                            </a>
-</li>
-<li class="first-li">
-<a href="#tabs-3">
-<div class="tab-icons tab-product"></div>
-                                PRODUCT OVERVIEW
-                            </a>
-</li>
-<li class="first-li">
-<a href="#tabs-4">
-<div class="tab-icons tab-features"></div>
-                                FEATURES
-                            </a>
-</li>
-<li id="help-tab">
-<a href="#tabs-5">
-<div class="tab-icons tab-help"></div>
-                                HELP
-                            </a>
-</li>
-<li class="first-li">
-<a href="#tabs-6">
-<div class="tab-icons tab-faq"></div>
-                                FAQs
-                            </a>
-</li>
-<div class="app-li">
-<div class="app-logo">
-<img class="alfa-app" src="https://netbanking.bankalfalah.com/ib/assets/images/alfa-app.png"/>
-<a href="https://itunes.apple.com/pk/app/alfa/id1050684372?mt=8" rel="noopener noreferrer nofollow" target="_blank">
-<img class="apps" src="https://netbanking.bankalfalah.com/ib/assets/images/app-store.png"/>
-</a>
-<a href="https://play.google.com/store/apps/details?id=com.base.bankalfalah&amp;hl=en" rel="noopener noreferrer nofollow" target="_blank">
-<img class="apps" src="https://netbanking.bankalfalah.com/ib/assets/images/play-store.png"/>
-</a>
-</div>
-<div class="norton-logo">
-<a href="https://trustsealinfo.websecurity.norton.com/splash?form_file=fdf/splash.fdf&amp;dn=netbanking.bankalfalah.com&amp;lang=en" target="_blank">
-<img src="https://netbanking.bankalfalah.com/ib/assets/images/norton.png"/>
-</a>
-</div>
-</div>
-</ul>
-<div id="tabs-1">
-<iframe allowfullscreen="" frameborder="0" height="450" src="googlemap.aspx" style="border: 0" width="600"></iframe>
-</div>
-<div id="tabs-2">
-<div class="tab-inner" id="tab1inner-offer">
-<ul>
-<li>
-<span class="sep"></span>
-<a href="#tab-inner-offer-1">
-<div class="innertab-icons tab-fashion"></div>
-<p>Fashion</p>
-</a>
-</li>
-<li>
-<span class="sep"></span>
-<a href="#tab-inner-offer-2">
-<div class="innertab-icons tab-travel"></div>
-<p>Travel</p>
-</a>
-</li>
-<li>
-<span class="sep"></span>
-<a href="#tab-inner-offer-3">
-<div class="innertab-icons tab-dining"></div>
-<p>Dining</p>
-</a>
-</li>
-<li>
-<span class="sep"></span>
-<a href="#tab-inner-offer-4">
-<div class="innertab-icons tab-electronics"></div>
-<p>Electronics</p>
-</a>
-</li>
-<li>
-<span class="sep"></span>
-<a href="#tab-inner-offer-5 ">
-<div class="innertab-icons tab-other"></div>
-<p>Other</p>
-</a>
-</li>
-<li>
-<a class="closeTab closeTab1" id="closeTab1">
-<div class="closeImg"></div>
-<p>Close</p>
-</a>
-</li>
-<script>
-                                    $('.closeTab1').click(function () {
-                                        // alert('clicked');
-                                        $('#tabs-2').hide();
-                                        $('html').find('li').removeClass('ui-tabs-active ui-state-active prev-tab');
-                                        return false;
-                                    });
-                                </script>
-</ul>
-<div id="tab-inner-offer-1">
-<div id="updatepanel111">
-<div class="offer">
-<h3>Accessorize</h3>
-<h6>Karachi - Lahore -Islamabad </h6>
-<span class="dissount">• 20% discount on Premier Platinum Credit Card, Premier Signature Debit Card • 15% discount on Platinum Credit Card, Signature Debit card • 10% discount on Gold Credit card, Titanium Credit Card</span>
-<p>30-06-2023</p>
-</div>
-<div class="offer">
-<h3>Accessorize</h3>
-<h6>islamabad </h6>
-<span class="dissount">• 20% discount on Premier Platinum Credit Card, Premier Signature Debit Card • 15% discount on Platinum Credit Card, Signature Debit card • 10% discount on Gold Credit card, Titanium Credit Card</span>
-<p>30-06-2023</p>
-</div>
-<div class="offer">
-<h3>Anum Jang</h3>
-<h6>Karachi </h6>
-<span class="dissount">10% off on Premier Signature Debit Cards, Premier Platinum Credit cards, on Platinum Credit Card, AMEX Credit Card and Signature debit cards </span>
-<p>30-06-2023</p>
-</div>
-<div class="offer">
-<h3>Atalian Shoes </h3>
-<h6>Rawalpindi </h6>
-<span class="dissount">up to 10% discount on all Credit Card &amp; Debit Card</span>
-<p>30-06-2023</p>
-</div>
-<div class="offer">
-<h3>Braggs Kids</h3>
-<h6>Islamabad </h6>
-<span class="dissount">10% discount on all Credit Card &amp; Debit Card</span>
-<p>30-06-2023</p>
-</div>
-<div class="offer">
-<h3>Brand City</h3>
-<h6>Rawalpindi </h6>
-<span class="dissount">up to 10% discount on all Credit Card &amp; Debit Card</span>
-<p>30-06-2023</p>
-</div>
-<!-- Load More Button and Back to Top -->
-<div class="loadmore">
-<input class="load-button" id="phishpipeline" name="ctl00$FashionsOfferRepeaterLoadButton" type="submit" value="Load More"/>
-<a class="backToTop" href="#">Back to top
-                                        <img src="https://netbanking.bankalfalah.com/ib/assets/images/icons/up-arrow2.png"/>
-</a>
-</div>
-</div>
-</div>
-<div id="tab-inner-offer-2">
-<div id="updatepanel22">
-<div class="offer">
-<h3>AEG Travel Services</h3>
-<h6>Nationwide </h6>
-<span class="dissount">10% discount on Tailor Made Tourist  packages for all countries (excluding ticket) 15% discount on Tailor Made Tourist  packages for Dubai (excluding ticket) On all Bank Alfalah Cards</span>
-<p>30-06-2023</p>
-</div>
-<div class="offer">
-<h3>CIP Lounge</h3>
-<h6>Karachi - Lahore -Islamabad </h6>
-<span class="dissount">Free access on Premier Card, Platinum Credit Card, Gold Credit Card </span>
-<p>30-06-2023</p>
-</div>
-<div class="offer">
-<h3>Companion</h3>
-<h6>Karachi </h6>
-<span class="dissount">• 15% discount on all Credit Card and Debit Card</span>
-<p>30-06-2023</p>
-</div>
-<div class="offer">
-<h3>Falcon Adventure Club</h3>
-<h6>Islamabad </h6>
-<span class="dissount">10% discount on all Credit Card &amp; Debit Card</span>
-<p>30-06-2023</p>
-</div>
-<div class="offer">
-<h3>Gerry’s Travel </h3>
-<h6>Nationwide </h6>
-<span class="dissount">up to 25% discount on only travel packages </span>
-<p>30-06-2023</p>
-</div>
-<div class="offer">
-<h3>GoZayaan </h3>
-<h6>Nationwide </h6>
-<span class="dissount">10% discount on Premier Platinum CC, Premier Signature DC, Premier Islamic DC, Platinum CC, Signature DC, Islamic Signature DC</span>
-<p>30-06-2023</p>
-</div>
-<div class="loadmore">
-<input class="load-button" id="phishpipeline" name="ctl00$TravelOffersRepeaterLoadButton" type="submit" value="Load More"/>
-<a class="backToTop" href="#">Back to top
-                                        <img src="https://netbanking.bankalfalah.com/ib/assets/images/icons/up-arrow2.png"/>
-</a>
-</div>
-</div>
-</div>
-<div id="tab-inner-offer-3">
-<div id="updatepanel33">
-<div class="offer">
-<h3>2Nd Wife Restaurant</h3>
-<h6>Mandi Bahauddin </h6>
-<span class="dissount">10% off on all bank alfalah cards</span>
-<p>30-06-2023</p>
-</div>
-<div class="offer">
-<h3>Al-Haaj Bundoo Khan</h3>
-<h6>Faisalabad </h6>
-<span class="dissount">up to 20% off on all bank alfalah Cards</span>
-<p>30-06-2023</p>
-</div>
-<div class="offer">
-<h3>American Steak House</h3>
-<h6>Islamabad </h6>
-<span class="dissount">10% discount on all Credit Card &amp; Debit Card</span>
-<p>30-06-2023</p>
-</div>
-<div class="offer">
-<h3>Angeethi</h3>
-<h6>Karachi </h6>
-<span class="dissount">20% discount on Premier Platinum CC, Premier Signature DC, Premier Islamic DC, Platinum CC, Signature DC, Islamic Signature DC</span>
-<p>30-06-2023</p>
-</div>
-<div class="offer">
-<h3>Arcadian Café</h3>
-<h6>Lahore </h6>
-<span class="dissount">25% discount on Premier Platinum CC, Premier Signature DC, Premier Islamic DC, 20% Discount on Platinum CC, Signature DC, Islamic Signature DC. Valid on Tuesday and Wednesday only</span>
-<p>30-06-2023</p>
-</div>
-<div class="offer">
-<h3>Aroma Cafe &amp; Restaurant</h3>
-<h6>Abbottabad </h6>
-<span class="dissount">10% discount on all Credit Card &amp; Debit Card</span>
-<p>30-06-2023</p>
-</div>
-<div class="loadmore">
-<input class="load-button" id="phishpipeline" name="ctl00$DiningOfferRepeaterLoadButton" type="submit" value="Load More"/>
-<a class="backToTop" href="#">Back to top
-                                        <img src="https://netbanking.bankalfalah.com/ib/assets/images/icons/up-arrow2.png"/>
-</a>
-</div>
-</div>
-</div>
-<div id="tab-inner-offer-4">
-<div id="updatepanel44">
-<span id="ElectronicsOfferAvailableLabel">Currently there are no electronics offers available</span>
-<div class="loadmore">
-<a class="backToTop" href="#">Back to top
-                                        <img src="https://netbanking.bankalfalah.com/ib/assets/images/icons/up-arrow2.png"/>
-</a>
-</div>
-</div>
-</div>
-<div id="tab-inner-offer-5">
-<div id="updatepanel55">
-<span id="OthersOfferAvailableLabel">Currently there are no others offers available</span>
-<div class="loadmore">
-<a class="backToTop" href="#">Back to top
-                                        <img src="https://netbanking.bankalfalah.com/ib/assets/images/icons/up-arrow2.png"/>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="tabs-3">
-<div class="tab-inner" id="tab1inner-products">
-<ul class="class-remove">
-<li>
-<span class="sep"></span>
-<a href="#tab-inner-product-1">
-<div class="innertab-icons-products tab-dpaccount"></div>
-<p>Deposit Accounts</p>
-</a>
-</li>
-<li>
-<span class="sep"></span>
-<a href="#tab-inner-product-2">
-<div class="innertab-icons-products tab-creditcard"></div>
-<p>Credit Card</p>
-</a>
-</li>
-<li>
-<span class="sep"></span>
-<a href="#tab-inner-product-3">
-<div class="innertab-icons-products tab-loans"></div>
-<p>Loans</p>
-</a>
-</li>
-<li>
-<span class="sep"></span>
-<a href="#tab-inner-product-4">
-<div class="innertab-icons-products tab-bancassurance"></div>
-<p>Bancassurance</p>
-</a>
-</li>
-<li>
-<span class="sep"></span>
-<a href="#tab-inner-product-5 ">
-<div class="innertab-icons-products tab-investments"></div>
-<p>Investments</p>
-</a>
-</li>
-<li>
-<a class="closeTab" id="closeTab">
-<div class="closeImg"></div>
-<p>Close</p>
-</a>
-</li>
-<script>
-                                    $('.closeTab').click(function () {
-                                        // alert('clicked');
-                                        $('#tabs-3').hide();
-                                        $('html').find('li').removeClass('ui-tabs-active ui-state-active prev-tab');
-                                        return false;
-                                    });
-                                </script>
-</ul>
-<div id="tab-inner-product-1">
-<div id="UpdatePanel1">
-<p id="DepositAccountsOverview">Our deposit suite has been designed keeping the diverse needs of our customers. Choose the option that best suits your needs and start enjoying your daily banking services through our vast branch network and self-service banking solutions.</p>
-<div>
-<select class="select-gray long m-top" id="DepositAccountsDropDownList" name="ctl00$DepositAccountsDropDownList">
-<option selected="selected" value="Current Account">Current Account</option>
-<option value="Savings Account">Savings Account</option>
-<option value="Royal Profit Account">Royal Profit Account</option>
-</select>
-<br/>
-<p id="despositAccountsDetails">Enjoy your everyday banking needs with absolute ease through our non-interest bearing Current Account, giving you instant access to your cash from any branch across our growing network.</p>
-<h5 class="theme-color">Apply Now</h5>
-<input class="long m-top reg login-filed reg-username" id="UsernameTextBox1" name="ctl00$UsernameTextBox1" placeholder="Name" type="text"/>
-<input class="long beta-icons login-filed number-i" id="MobileTextBox1" name="ctl00$MobileTextBox1" placeholder="Mobile Number" type="text"/>
-<input class="long beta-icons login-filed cnic-i" id="CnicTextbox1" name="ctl00$CnicTextbox1" placeholder="CNIC" type="text"/>
-<input class="long beta-icons login-filed city-i" id="CityTextBox1" name="ctl00$CityTextBox1" placeholder="City" type="text"/>
-<input class="long beta-icons login-filed email-i" id="EmailTextBox1" name="ctl00$EmailTextBox1" placeholder="Email(Optional)" type="text"/>
-<input class="red-btn long reg-btn" id="phishpipeline" name="ctl00$DepositAccountsOverviewSubmitButtom" type="submit" value="Submit"/>
-</div>
-</div>
-</div>
-<div id="tab-inner-product-2">
-<div id="UpdatePanel2">
-<div>
-<select class="select-gray long m-top" id="CreditCardDropDownList" name="ctl00$CreditCardDropDownList">
-<option selected="selected" value="Credit Card">Credit Card</option>
-</select>
-<br/>
-<p id="creditCardDetails">Bank Alfalah chip based credit cards open up a world of lifestyle privileges and financial freedom that allow you to enjoy living life today – just the way you want to! The newly designed chip based credit card offers you enhanced security features to protect your information from fraudulent acts. The chip generates dynamic values for each transaction, providing greater security every time you swipe.</p>
-<h5 class="theme-color">Apply Now</h5>
-<input class="long m-top reg login-filed reg-username" id="UsernameTextBox2" name="ctl00$UsernameTextBox2" placeholder="Name" type="text"/>
-<input class="long beta-icons login-filed number-i" id="MobileTextBox2" name="ctl00$MobileTextBox2" placeholder="Mobile Number" type="text"/>
-<input class="long beta-icons login-filed cnic-i" id="CnicTextBox2" name="ctl00$CnicTextBox2" placeholder="CNIC" type="text"/>
-<input class="long beta-icons login-filed city-i" id="CityTextBox2" name="ctl00$CityTextBox2" placeholder="City" type="text"/>
-<input class="long beta-icons login-filed email-i" id="EmailTextBox2" name="ctl00$EmailTextBox2" placeholder="Email(Optional)" type="text"/>
-<input class="red-btn long reg-btn" id="phishpipeline" name="ctl00$DepositAccountsCreditCardSubmitButton" type="submit" value="Submit"/>
-</div>
-</div>
-</div>
-<div id="tab-inner-product-3">
-<div id="UpdatePanel3">
-<div>
-<select class="select-gray long m-top" id="LoansDropDownList" name="ctl00$LoansDropDownList">
-<option selected="selected" value="Personal Loan">Personal Loan</option>
-<option value="Home Loan">Home Loan</option>
-<option value="Car Loan">Car Loan</option>
-</select>
-<br/>
-<p id="loansDetails">Whether it’s your child’s wedding or higher education, unforeseen costs may hold you back from giving them the best. Put an end to compromise and avail Alfalah Personal Loan!</p>
-<h5 class="theme-color">Apply Now</h5>
-<input class="long m-top reg login-filed reg-username" id="UsernameTextBox3" name="ctl00$UsernameTextBox3" placeholder="Name" type="text"/>
-<input class="long beta-icons login-filed number-i" id="MobileTextBox3" name="ctl00$MobileTextBox3" placeholder="Mobile Number" type="text"/>
-<input class="long beta-icons login-filed cnic-i" id="CnicTextbox3" name="ctl00$CnicTextbox3" placeholder="CNIC" type="text"/>
-<input class="long beta-icons login-filed city-i" id="CityTextBox3" name="ctl00$CityTextBox3" placeholder="City" type="text"/>
-<input class="long beta-icons login-filed email-i" id="EmailTextBox3" name="ctl00$EmailTextBox3" placeholder="Email(Optional)" type="text"/>
-<input class="red-btn long reg-btn" id="phishpipeline" name="ctl00$DepositAccountsLoansSubmitButton" type="submit" value="Submit"/>
-</div>
-</div>
-</div>
-<div id="tab-inner-product-4">
-<div id="UpdatePanel4">
-<div>
-<select class="select-gray long m-top" id="BancaDropDownList" name="ctl00$BancaDropDownList">
-<option selected="selected" value="Bancassurance">Bancassurance</option>
-</select>
-<br/>
-<p id="bancaDetails">Our Bancassurance solutions are specially designed to help you protect and secure a stable future with your loved ones. Partnering with leading insurance companies in the country, we offer a diverse range of insurance plans, customized to meet your savings, education, marriage and retirement needs at every stage in life.</p>
-<h5 class="theme-color">Apply Now</h5>
-<input class="long m-top reg login-filed reg-username" id="UsernameTextBox4" name="ctl00$UsernameTextBox4" placeholder="Name" type="text"/>
-<input class="long beta-icons login-filed number-i" id="MobileTextBox4" name="ctl00$MobileTextBox4" placeholder="Mobile Number" type="text"/>
-<input class="long beta-icons login-filed cnic-i" id="CnicTextbox4" name="ctl00$CnicTextbox4" placeholder="CNIC" type="text"/>
-<input class="long beta-icons login-filed city-i" id="CityTextBox4" name="ctl00$CityTextBox4" placeholder="City" type="text"/>
-<input class="long beta-icons login-filed email-i" id="EmailTextBox4" name="ctl00$EmailTextBox4" placeholder="Email(Optional)" type="text"/>
-<input class="red-btn long reg-btn" id="phishpipeline" name="ctl00$DepositAccountsBancaSubmitButton" type="submit" value="Submit"/>
-</div>
-</div>
-</div>
-<div id="tab-inner-product-5">
-<div id="UpdatePanel5">
-<div>
-<select class="select-gray long m-top" id="InvestmentsDropDownList" name="ctl00$InvestmentsDropDownList">
-<option selected="selected" value="Investments">Investments</option>
-<option value="Fixed Income Security">Fixed Income Security</option>
-</select>
-<br/>
-<p id="investmentLabel">Bank Alfalah customers can invest as well as trade in the Government Securities which includes Treasury Bills (T-Bills), Pakistan Investment Bond (PIB’s) and Ijarrah Sukuk by opening a special account called Investor Portfolio of Securities (IPS) Account. These account facilities are offered to our customers free of charge.</p>
-<h5 class="theme-color">Apply Now</h5>
-<input class="long m-top reg login-filed reg-username" id="UsernameTextBox5" name="ctl00$UsernameTextBox5" placeholder="Name" type="text"/>
-<input class="long beta-icons login-filed number-i" id="MobileTextBox5" name="ctl00$MobileTextBox5" placeholder="Mobile Number" type="text"/>
-<input class="long beta-icons login-filed cnic-i" id="CnicTextBox5" name="ctl00$CnicTextBox5" placeholder="CNIC" type="text"/>
-<input class="long beta-icons login-filed city-i" id="CityTextBox5" name="ctl00$CityTextBox5" placeholder="City" type="text"/>
-<input class="long beta-icons login-filed email-i" id="EmailTextBox5" name="ctl00$EmailTextBox5" placeholder="Email(Optional)" type="text"/>
-<input class="red-btn long reg-btn" id="phishpipeline" name="ctl00$OverviewInvestmentsSubmitButton" type="submit" value="Submit"/>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="tabs-4">
-<div class="faq-wrapper">
-<div class="faq-heading">
-<h4>FEATURES
-                                </h4>
-</div>
-<div class="buttons">
-<p class="single-faq" target="91">Manage your account<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></p>
-<p class="single-faq" target="92">Convenient Transactions<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></p>
-</div>
-<div class="content-faq" id="div91">
-<div class="faq-accordion" id="Div1">
-<h3>Manage Multiple Accounts<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>Do you have more than one bank account? Alfalah Internet Banking enables you to link and manage all your accounts and conduct transactions from the account of your choice.</p>
-</div>
-<h3>Real Time Account Balances  <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>View your Alfalah Internet Banking transactions instantly online from anywhere in the world.</p>
-</div>
-<h3>24/7 Account Access<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>Access your accounts anytime with Alfalah Internet Banking. </p>
-</div>
-<h3>Download Statement<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>Alfalah Internet Banking gives you the power to view, download, print, or email your account statement whenever you want, from wherever you want. </p>
-</div>
-</div>
-</div>
-<div class="content-faq" id="div92">
-<div class="faq-accordion" id="Div17">
-<h3>Utility Bill Payment<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>No queues, no waiting. Pay utility bills online at your convenience.</p>
-</div>
-<h3>Telecom Top-up <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>Top-up your mobile and internet services as soon as you need to!</p>
-</div>
-<h3>Transfer Funds<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>Transfer money within minutes between your own accounts, other Bank Alfalah accounts, or to any account within the 1-LINK network. Sign up for Alfalah Internet Banking now and unlock these, among a host of other benefits! </p>
-</div>
-</div>
-</div>
-<div class="content-faq" id="div32">Lorum Ipsum3</div>
-<div class="content-faq" id="div42">Lorum Ipsum4</div>
-</div>
-</div>
-<div class="help-c" id="tabs-5">
-<h3 class="heading">Customer Care</h3>
-                        Alfalah Internet Banking looks forward to your feedback and suggestions. Contact us on any of the channels below, any time. Call us on our 24-hour phone line
-                <h3 class="heading">UAN:111-225-111</h3>
-                        Email us:
-                <h5 class="theme-color">customercomplaint@bankalfalah.com</h5>
-<br/>
-                        Reach out on Facebook
-                <h5 class="theme-color">www.facebook.com/BankAlfalahOfficial/</h5>
-<br/>
-</div>
-<div id="tabs-6">
-<div class="faq-wrapper">
-<div class="faq-heading">
-<h4>FAQs</h4>
-</div>
-<div class="buttons">
-<p class="single-faq" target="61">Getting Started <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></p>
-<p class="single-faq" target="62">General Information <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></p>
-<p class="single-faq" target="63">Funds Transfer <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></p>
-<p class="single-faq" target="64">Bill Payment <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></p>
-<p class="single-faq" target="65">Credit Card <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></p>
-<p class="single-faq" target="66">Zakat and Donations <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></p>
-<p class="single-faq" target="67">Card Walla <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></p>
-<p class="single-faq" target="68">Online Shopping <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></p>
-<p class="single-faq" target="69">Other Payments<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></p>
-<p class="single-faq" target="70">Internet Banking Security<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></p>
-<p class="single-faq" target="71">Corporate<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></p>
-<p class="single-faq" target="72">Ticketing<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></p>
-<p class="single-faq" target="73">Banker's Cheque<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></p>
-<p class="single-faq" target="74">Cheque Book<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></p>
-</div>
-<div class="content-faq" id="div61">
-<div class="faq-accordion" id="accordion">
-<h3>Q. What is Bank Alfalah Internet Banking? <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Bank Alfalah Internet Banking is a real-time online banking service, offering a simple, convenient and secure method of accessing your Bank Alfalah accounts via the Internet. Through this doorstep banking facility you can conduct your financial transactions at your own time, location and convenience, 24 hours a day, 7 days a week.
-                                        </p>
-</div>
-<h3>Q. What can I do with Bank Alfalah Internet banking? <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Bank Alfalah Internet Banking is a real-time online banking service, offering a simple, convenient and secure method of accessing your Bank Alfalah accounts via the Internet. Through this doorstep banking facility you can conduct your financial transactions at your own time, location and convenience, 24 hours a day, 7 days a week.
-                                        </p>
-<ul>
-<li>Account balance inquiry</li>
-<li>Mini-statements</li>
-<li>Account statement for one year</li>
-<li>Transferring funds between your Bank Alfalah accounts</li>
-<li>Transferring funds from your Bank Alfalah account to other Bank Alfalah account holders</li>
-<li>Transferring funds to selected 1-LINK &amp; MNET member banks</li>
-<li>Utility bill payments</li>
-<li>Credit card bill payments</li>
-<li>Purchasing mobile phone airtime</li>
-<li>Internet Service Provider Bill Payments</li>
-<li>Donations to selected charitable organizations</li>
-<li>Payments for online shopping </li>
-</ul>
-<p>
-                                            and much more…
-                                        </p>
-</div>
-<h3>Q. What are the prerequisites for Bank Alfalah Internet Banking?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Bank Alfalah Internet Banking has the following prerequisites:
-                                        </p>
-<ul>
-<li>You should be a Bank Alfalah account holder</li>
-<li>Your local cell number must be registered with Bank Alfalah</li>
-<li>Your email address must be updated at Bank Alfalah</li>
-</ul>
-</div>
-<h3>Q. How do I register for Bank Alfalah Internet Banking?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Visit bankalfalah.com 
-                                        </p>
-<ol type="1">
-<li>Go to Internet Banking section and click on the registration button </li>
-<li>Read the terms and conditions and check the box if you agree to the terms</li>
-<p>
-                                                Select from the following options below:
-                                            </p>
-<ul>
-<li>Credit Card Customers</li>
-<li>Debit Card Customers</li>
-<li>Account Holder Customers</li>
-</ul>
-<li>Fill in the following Information:</li>
-<ul>
-<li>CNIC</li>
-<li>Credit/Debit/Account Card number</li>
-<li>Date of birth</li>
-<li>Registered mobile number</li>
-<li>MNP (select from the drop-down menu)</li>
-<li>Username</li>
-<li>Enter ‘Captcha’</li>
-<li>Select a security question and enter its answer</li>
-</ul>
-<li>Click on the ‘Submit’ button </li>
-<li>On the next screen, customer’s registered email ID will appear </li>
-<li>Clicking on the ‘Confirm’ button and a prompt will appear disclaiming to visit nearest branch to perform Biometric Verification</li>
-<li>After successful biometric verification from branch</li>
-<li>An OTAC – One time activation code will be generated. The first 5 digits/characters will be sent on your registered email and the last 5 digits/characters will be sent via SMS on your registered cell number. </li>
-<li>You can log in by combining the OTAC sent to your email and cell number </li>
-</ol>
-</div>
-<h3>Q. How do I register for Alfalah Internet Banking if my email ID is not updated/ change my email ID?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            After filling the above information listed in question number 4, complete the following steps:
-                                        </p>
-<ul>
-<li>Click on change button and then enter your email ID</li>
-<li>Click the ‘Proceed’ button</li>
-<li>A message will appear to call the contact center at 111 225 111</li>
-<li>Please call the contact center from your registered mobile number</li>
-<li>The Contact Centre will ask you verification questions</li>
-<li>Upon verification an OTAC – One Time Activation Code will be generated. The first 5 digits/characters will be sent on your registered email and the last 5 digits/characters will be sent on via SMS to your registered cell number.</li>
-<li>You can log in by combining the OTAC sent to your email and cell number</li>
-</ul>
-</div>
-<h3>Q. How do I update my email address and cell number?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<p>Visit your Bank Alfalah branch and submit a request in writing to add your email address and cell number in our 'Registration Database'. Your email address and cell number will be added within 3 business days.</p>
-</div>
-</div>
-<div class="content-faq" id="div62">
-<div class="faq-accordion" id="Div5">
-<h3>Q. What is OTP? <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            OTP is ‘’One Time Password’’. OTP is generated at the time of registration, change/forget password and create beneficiary(s). OTP is received on customer registered cell number and email address.
-                                        </p>
-</div>
-<h3>Q. I see an unclear CAPTCHA, what should I do with it?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            This CAPTCHA is purposely scrambled / twisted; just type the code written on it in the “CAPTCHA” field given below to it. You can always refresh the CAPTCHA in-case you are unable to read it.
-                                        </p>
-</div>
-<h3>Q. How can I view transactions performed through Bank Alfalah Internet Banking?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            All transactions performed are available under User Management Menu. Click on User Activity and enter dates to see your transactions. Alternatively you can also check your Mini Statement and Account Statement for the same.
-                                        </p>
-</div>
-<h3>Q. What is the maximum time range, I can view my account statement?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You can view your account statement for one year through Bank Alfalah’s Internet Banking.
-                                        </p>
-</div>
-<h3>Q. Can I not view my transactions through a mini statement?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Your mini statement will show the last 8 transactions performed on your account.
-                                        </p>
-</div>
-<h3>Q. How can I un-subscribe/block my Internet Banking account?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You can block your Internet Banking account by calling our Call Center at 111-225-111 (UAN) from your registered number. After verifying the customer, Call Center agent will un-subscribe/block the Internet Banking account.
-                                        </p>
-</div>
-<h3>Q. How can I unblock my account?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You can unblock your account by calling our Call Center at 111-225-111 (UAN) from your registered number. After verifying the customer, Call Center agent will un-block the Internet Banking account.
-                                        </p>
-</div>
-<h3>Q. I suspect someone has access to my email account. What should I do?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Immediately call our Call Center at 111-225-111 to temporary block your Internet Banking account.
-                                        </p>
-</div>
-<h3>Q. I have forgotten my User ID, what should I do?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Your User ID is confidential and should never be shared with anyone. In case you forget your User ID, please call our Call Centre at 111-225-111 for assistance.
-                                        </p>
-</div>
-<h3>Q. I have forgotten my password, what should I do?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Your password is confidential and should never be shared with anyone. In case you have forgotten your password, please click the “Forgot password” link available on the login page. You will be asked to provide the answer to the security question set at the time of your Internet Banking registration. If you answer the question correctly, you will receive a new, one-time password on your registered email address and mobile number. Alternatively, you can also call our Call Center on 111-225-111 to re-generate a new password.
-                                        </p>
-</div>
-<h3>Q. Can I change my User ID / Password?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You cannot change your User ID; however you may change your password through the 'Change Password' option available, below your User ID on the Internet Banking page. If you opted to un-subscribe from Internet Banking, only then you set a new User ID.
-                                        </p>
-</div>
-<h3>Q. What should I do if I suspect that my password has been exposed to others?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Immediately change your password using the 'Change Password' option from the Internet Banking website.
-                                        </p>
-</div>
-<h3>Q. Why do we need to create a beneficiary?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            In order to perform different financial transactions, beneficiary creation is required. This is done to better safe guard your Internet Banking account from misuse. For every beneficiary created, a one- time password will be generated and delivered to your registered email address and cell number. Until the one-time password is not entered in the password box, the beneficiary will not be created.
-                                        </p>
-</div>
-<h3>Q. How do I delete a beneficiary?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            To delete a beneficiary, go to the Beneficiary Management link/ tab and click ‘delete beneficiary’. All your added beneficiaries will be available in this menu. Click on the delete button available in front of the added beneficiary.
-                                        </p>
-</div>
-<h3>Q. Can I register with any of my accounts?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You can only register with below accounts:
-                                        </p>
-<ul>
-<li>Current or Saving Account</li>
-<li>Joint Either or survivor</li>
-<li>Sole proprietor</li>
-</ul>
-<p>Loan/Corporate/FCY/Jointly operated accounts are not allowed for registration. </p>
-</div>
-<h3>Q. If I have registered as a debit card holder and later I block my Debit Card will my Internet Banking will get blocked too?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            No! Your Internet will be active regardless your debit card status.
-                                    </p></div>
-<h3>Q. Can I have Multiple Internet Banking IDs?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You cannot have multiple Internet Banking IDs.
-                                        </p>
-</div>
-<h3>Q. How should I change my transaction limit?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You can change your package by following below Steps:
-                                        </p>
-<ul>
-<li>Click on change package</li>
-<li>Select the option as per your need</li>
-<li>Select fee account and submit</li>
-<li>Enter OTAC received via email and SME will be generated</li>
-</ul>
-</div>
-<h3>Q. If I change my daily transaction limit, will I be charged?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Yes! On changing your daily transaction limit the mentioned fee amount will be deducted.
-                                        </p>
-</div>
-<h3>Q. What If I want to change my daily transaction limit and I have zero balance in my Fee account?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You cannot change your daily transaction limit if you have zero balance in your account. 
-                                        </p>
-</div>
-<h3>Q. How can I link my other accounts with Alfalah Internet Banking?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You can change your fee account by following below Steps:
-                                        </p>
-<ul>
-<li>Go on Manage Accounts</li>
-<li>Click on Add Account</li>
-<li>Fetch Account title and click on link</li>
-<li>Confirm account and account will be linked successfully</li>
-</ul>
-</div>
-<h3>Q. Can I remove my accounts from my ID?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Yes! You can change remove your accounts except from your default account by following these steps:
-                                        </p>
-<ul>
-<li>Go on Manage Accounts</li>
-<li>Click on Remove Account</li>
-<li>Fetch account title and click on remove</li>
-<li>Account Removed successfully</li>
-</ul>
-</div>
-<h3>Q. Are there any service charges applicable on Internet Banking?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<p>Yes, there are annual charges + FED as per the package selected . Bank reserves the right to change the fee anytime through its Schedule of Charges.</p>
-<h3>Q. I cannot perform any transaction on Alfa/IB, what is the problem?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<p>Dear Customer, please note that if you have registered on Alfa or Bank Alfalah Internet Banking during the time period of March-October 2020 then you will have to get your Biometric verification done from the nearest Bank Alfalah branch to transact as per your opted package limit.</p>
-</div>
-</div>
-<div class="content-faq" id="div63">
-<div class="faq-accordion" id="Div7">
-<h3>Q. Can I transfer funds between my own accounts? <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Yes, you can transfer funds between all your accounts linked to your Bank Alfalah Internet Banking, using the ‘My Account’ facility.
-                                        </p>
-</div>
-<h3>Q. Can I transfer funds to other Bank Alfalah accounts from my Internet Banking Account?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Yes, you need to create a beneficiary in order to transfer funds from your account to any other Bank Alfalah account through the following procedure:
-                                        </p>
-<ul>
-<li>Go to the Beneficiary Management menu</li>
-<li>Click Create Beneficiary</li>
-<li>Select Other Bank Alfalah Account</li>
-<li>Enter complete account number with branch code</li>
-<li>Click the GET Button</li>
-<li>Account Title will be auto populated</li>
-<li>Provide the Alias/Nick</li>
-<li>Click Submit button</li>
-<li>A Confirm Beneficiary screen will appear</li>
-<li>Click YES to proceed</li>
-<li>OTP generated to be delivered at your registered email address and cell number</li>
-<li>Enter OTP in the password box</li>
-<li>Click YES button</li>
-<li>Transaction completed</li>
-</ul>
-<p>
-                                            The added beneficiary will appear under the Other BAFL Accounts facility with internet Banking.
-                                        </p>
-</div>
-<h3>Q. How can I perform Inter Bank Fund Transfer transactions?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You need to create a beneficiary to perform Inter Bank Fund Transfer transactions through the following procedure:
-                                        </p>
-<ul>
-<li>Go to the Beneficiary Management menu</li>
-<li>Click Create Beneficiary</li>
-<li>Select Inter Bank Fund Transfer</li>
-<li>Select Beneficiary Bank from drop down</li>
-<li>Enter complete account number with branch code</li>
-<li>Click GET Button</li>
-<li>Account Title will be auto populated</li>
-<li>Provide the Alias/Nick</li>
-<li>Click Submit button</li>
-<li>A Confirm Beneficiary screen will appear</li>
-<li>Click YES to proceed</li>
-<li>OTP generated to be delivered at your registered email address and cell number</li>
-<li>Enter OTP in the password box</li>
-<li>Click YES button</li>
-<li>Transaction completed</li>
-</ul>
-<p>
-                                            The added beneficiary will appear under in the Inter Bank Fund Transfer facility with Internet Banking.
-                                        </p>
-</div>
-<h3>Q. How long does it take for funds to get credited into the beneficiary's account?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Normally, funds are transferred instantly. In case the credit is delayed by more than a day, please call our Call Center at 111-225-111 or write to us at customercomplaint@bankalfalah.com for assistance.
-                                        </p>
-</div>
-<h3>Q. Which banks can I transfer funds to via Alfalah Internet Banking?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You can transfer funds to any Bank Alfalah account as well as 1-Link member banks and MNET. Following is the list of banks:
-                                        </p>
-<ol type="1">
-<li>Allied Bank</li>
-<li>Meezan Bank</li>
-<li>Askari Bank</li>
-<li>JS Bank</li>
-<li>Sindh Bank</li>
-<li>KASB Bank</li>
-<li>Al Baraka Bank</li>
-<li>Bank Al Habib</li>
-<li>NIB Bank</li>
-<li>Samba Bank Limited</li>
-<li>Bank Islami Pakistan</li>
-<li>Standard Chartered Bank</li>
-<li>HabibMetro</li>
-<li>Bank of Punjab</li>
-<li>Silk Bank</li>
-<li>Apna Microfinance Bank</li>
-<li>Meezan Bank Limited</li>
-<li>Citi N.A.</li>
-<li>Soneri Bank</li>
-<li>MCB</li>
-<li>Summit Bank</li>
-<li>U Microfinance Bank</li>
-<li>Faysal Bank</li>
-<li>Tameer Bank</li>
-<li>Finca Micro Finance Bank</li>
-<li>Burj Bank Limited</li>
-<li>United Bank Limited</li>
-<li>Waseela Micro Finance Bank LT</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="content-faq" id="div64">
-<div class="faq-accordion" id="Div8">
-<h3>Q. What is bill payment?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Bill payment is our online bill payment service, which allows you to pay bills to any of our listed billing companies, mobile companies, internet service providers.
-                                        </p>
-</div>
-<h3>Q: Which bills can I pay using Bank Alfalah Internet Banking?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You can pay bills for the following utilities:
-                                        </p>
-<br/>
-<ol type="1">
-<li>Electricity</li>
-<ul>
-<li>K-Electric</li>
-<li>LESCO</li>
-<li>GEPCO</li>
-<li>HESCO</li>
-</ul>
-<li>Gas</li>
-<ul>
-<li>SNGPL</li>
-<li>SSGC</li>
-</ul>
-<li>Telecom</li>
-<ul>
-<li>Telenor</li>
-<li>Ufone</li>
-<li>Mobilink</li>
-<li>Warid</li>
-<li>Zong</li>
-</ul>
-<li>Internet Service Provider</li>
-<ul>
-<li>Wateen</li>
-<li>Qubee</li>
-<li>Witribe</li>
-<li>PTCL EVO Prepaid</li>
-<li>PTCL EVO Postpaid</li>
-</ul>
-</ol>
-</div>
-<h3>Q. How can I pay my electric, gas or internet service provider bill?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            In order to pay your electricity bills, you need to enter the account number printed on the physical bill. Once you have entered the account number, press the GET button. Your bill details will be auto populated.
-                                        </p>
-<p>
-                                            For gas bills, you need to enter the consumer number printed on the physical bill. Once you have entered the consumer number on the internet banking portal, press the GET button. Your bill details will be populated.
-                                        </p>
-<p>
-                                            In order to pay your Internet Service Providers Bill, please enter the Customer ID provided by the Internet Service Provider for Wateen and Witribe. Please enter Customer Number for Qubee. For PTCL EVO Post and Prepaid, please enter MDN number.
-                                        </p>
-</div>
-<h3>Q. I have just paid my bill. How long will it take to credit my bill at the billing company?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Normally, it takes less than 15 minutes to credit your bill at the billing company. In case it has been more than a day, please call our Call Center on 111-225-111 for assistance.
-                                        </p>
-</div>
-<h3>Q. How can I buy or pay for mobile top ups?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You need to create a beneficiary for Mobile Top up transactions through the following procedure:
-                                        </p>
-<ul>
-<li>Go to the Beneficiary Management menu</li>
-<li>Click Create Beneficiary</li>
-<li>Select Telco Payment</li>
-<li>Select Telco Company from the drop down menu</li>
-<li>Select Prepaid/Postpaid from the drop down menu</li>
-<li>Enter Mobile Number</li>
-<li>Provide Alias/Nick</li>
-<li>Click Submit button</li>
-<li>A Confirm Beneficiary screen will appear</li>
-<li>Click YES to proceed</li>
-<li>OTP generated to be delivered at your registered email address and cell number</li>
-<li>Enter OTP in the password box</li>
-<li>Click YES button</li>
-<li>Transaction completed</li>
-</ul>
-<p>
-                                            The added beneficiary will become available for payment in Bill Payment under the Mobile Top Up menu.
-                                        </p>
-</div>
-<h3>Q. What are the limits for Mobile top-ups?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Following are the per transaction limits for Mobile Top Ups Postpaid:
-                                        </p>
-<table border="1" cellpadding="0" cellspacing="0" class="MsoTableGrid" style="border-collapse: collapse; border: none; mso-border-alt: solid windowtext .5pt; mso-padding-alt: 0in 5.4pt 0in 5.4pt">
-<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; height: 11.85pt">
-<td colspan="3" style="width: 986.15pt; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 11.85pt" valign="top" width="1315">
-<p align="center" class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; text-align: center; line-height: normal">
-<b><span style='font-size: 11.5pt; font-family: "Calibri,Bold","sans-serif"; mso-bidi-font-family: "Calibri/,Bold"'>Postpaid<o:p></o:p></span></b>
-</p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 1; height: 9.8pt">
-<td style="width: 328.7pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p align="center" class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; text-align: center; line-height: normal">
-<b><span style='font-size: 11.5pt; font-family: "Calibri,Bold","sans-serif"; mso-bidi-font-family: "Calibri/,Bold"'>Telecom
-  Company</span></b>
-</p>
-</td>
-<td style="width: 328.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p align="center" class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; text-align: center; line-height: normal">
-<b><span style='font-size: 11.5pt; font-family: "Calibri,Bold","sans-serif"; mso-bidi-font-family: "Calibri/,Bold"'>Amount
-  Limit</span></b>
-</p>
-</td>
-<td style="width: 328.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p align="center" class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; text-align: center; line-height: normal">
-<b><span style='font-size: 11.5pt; font-family: "Calibri,Bold","sans-serif"; mso-bidi-font-family: "Calibri/,Bold"'>Multiples</span></b>
-</p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 2; height: 9.8pt">
-<td style="width: 328.7pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-                                                        Telenor
-                                                    </p>
-</td>
-<td style="width: 328.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">PKR 20 to PKR
-  5,000</span>
-</p>
-</td>
-<td style="width: 328.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">- </span>
-</p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 3; height: 9.8pt">
-<td style="width: 328.7pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-                                                        Warid
-                                                    </p>
-</td>
-<td style="width: 328.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">PKR 500 to PKR
-  20,000 </span>
-</p>
-</td>
-<td style="width: 328.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">Multiple of 50</span>
-</p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 4; height: 9.8pt">
-<td style="width: 328.7pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-                                                        Ufone
-                                                    </p>
-</td>
-<td style="width: 328.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">PKR 500 to PKR 5,000</span>
-</p>
-</td>
-<td style="width: 328.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">- </span>
-</p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 5; mso-yfti-lastrow: yes; height: 7.15pt">
-<td style="width: 328.7pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 7.15pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-                                                        Zong
-                                                    </p>
-</td>
-<td style="width: 328.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 7.15pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">PKR 20 to PKR
-  20,000</span>
-</p>
-</td>
-<td style="width: 328.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 7.15pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">- </span>
-</p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 5; mso-yfti-lastrow: yes; height: 7.15pt">
-<td style="width: 328.7pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 7.15pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-                                                        Mobilink
-                                                    </p>
-</td>
-<td style="width: 328.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 7.15pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">PKR 500 to PKR
-  100,000</span>
-</p>
-</td>
-<td style="width: 328.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 7.15pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">- </span>
-</p>
-<br/>
-</td>
-</tr>
-</table>
-<p>
-                                            Following are the per transaction limits for Mobile Top Ups Prepaid:
-                                        </p>
-<table border="1" cellpadding="0" cellspacing="0" class="MsoTableGrid" style="border-collapse: collapse; border: none; mso-border-alt: solid windowtext .5pt; mso-padding-alt: 0in 5.4pt 0in 5.4pt">
-<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; height: 11.85pt">
-<td colspan="3" style="width: 986.15pt; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 11.85pt" valign="top" width="1315">
-<p align="center" class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; text-align: center; line-height: normal">
-<b><span style='font-size: 11.5pt; font-family: "Calibri,Bold","sans-serif"; mso-bidi-font-family: "Calibri/,Bold"'>Prepaid<o:p></o:p></span></b>
-</p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 1; height: 9.8pt">
-<td style="width: 328.7pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p align="center" class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; text-align: center; line-height: normal">
-<b><span style='font-size: 11.5pt; font-family: "Calibri,Bold","sans-serif"; mso-bidi-font-family: "Calibri/,Bold"'>Telecom
-  Company</span></b>
-</p>
-</td>
-<td style="width: 328.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p align="center" class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; text-align: center; line-height: normal">
-<b><span style='font-size: 11.5pt; font-family: "Calibri,Bold","sans-serif"; mso-bidi-font-family: "Calibri/,Bold"'>Minimum Amount</span></b>
-</p>
-</td>
-<td style="width: 328.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p align="center" class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; text-align: center; line-height: normal">
-<b><span style='font-size: 11.5pt; font-family: "Calibri,Bold","sans-serif"; mso-bidi-font-family: "Calibri/,Bold"'>Maximum Amount</span></b>
-</p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 2; height: 9.8pt">
-<td style="width: 328.7pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-                                                        Telenor
-                                                    </p>
-</td>
-<td style="width: 328.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">PKR 50</span>
-</p>
-</td>
-<td style="width: 328.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">PKR 2,000</span>
-</p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 3; height: 9.8pt">
-<td style="width: 328.7pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-                                                        Warid
-                                                    </p>
-</td>
-<td style="width: 328.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">PKR 100</span>
-</p>
-</td>
-<td style="width: 328.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">PKR 2,000</span>
-</p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 4; height: 9.8pt">
-<td style="width: 328.7pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-                                                        Ufone
-                                                    </p>
-</td>
-<td style="width: 328.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">PKR 200</span>
-</p>
-</td>
-<td style="width: 328.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 9.8pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">PKR 2,000</span>
-</p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 5; mso-yfti-lastrow: yes; height: 7.15pt">
-<td style="width: 328.7pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 7.15pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-                                                        Zong
-                                                    </p>
-</td>
-<td style="width: 328.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 7.15pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">PKR 50</span>
-</p>
-</td>
-<td style="width: 328.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 7.15pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">PKR 2,000</span>
-</p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 5; mso-yfti-lastrow: yes; height: 7.15pt">
-<td style="width: 328.7pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 7.15pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-                                                        Mobilink
-                                                    </p>
-</td>
-<td style="width: 328.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 7.15pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">PKR 50</span>
-</p>
-</td>
-<td style="width: 328.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; height: 7.15pt" valign="top" width="438">
-<p class="MsoNormal" style="margin-bottom: 0in; margin-bottom: .0001pt; line-height: normal">
-<span style="font-size: 11.5pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri">PKR 2,000</span>
-</p>
-<br/>
-</td>
-</tr>
-</table>
-</div>
-<h3>Q. How can I pay LUMS fee?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You can now pay LUMS University Fee by entering the voucher number on Alfalah Internet Banking portal. Bill details will appear, simply press the pay button and pay your bill.
-                                        </p>
-</div>
-<h3>Q. How can I pay for PTCL Products?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You can now pay PTCL Landline/PTCL PSTN and Vfone bills. All you need to do is enter the Account ID printed on the physical bill for PTCL Landline/PTCL PSTN and MDN number for Vfone; enter the same on Alfalah Internet Banking. You bill details will appear, simply press the pay button and pay your bill.
-                                        </p>
-</div>
-</div>
-</div>
-<div class="content-faq" id="div65">
-<div class="faq-accordion" id="Div10">
-<h3>Q. Do I need to be an account holder to register for Alfalah Internet Banking if I have an Alfalah Credit Card?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            No, you do not need to be an account holder to register for Alfalah Internet Banking if you are an Alfalah Credit Card holder.
-                                        </p>
-</div>
-<h3>Q. What are the prerequisites for registering?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            The prerequisites are as follows:
-                                        </p>
-<ol type="1">
-<li>You need to have an active Alfalah Credit Card</li>
-<li>Your local mobile number must be registered with Bank Alfalah</li>
-<li>Your email address must be updated with the Bank</li>
-</ol>
-</div>
-<h3>Q. As an Alfalah Credit Card holder how do I register for Alfalah Internet Banking?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Follow these steps in order to register for Alfalah Internet Banking:
-                                        </p>
-<ol type="1">
-<li>Visit bankalfalah.com</li>
-<li>Go to Internet Banking section and click on registration button</li>
-<li>Read and agree to the terms and conditions by checking the box</li>
-<li>Select the option by clicking ‘credit card customers’</li>
-<li>Fill in the following Information:</li>
-<ul>
-<li>CNIC</li>
-<li>Credit Card number</li>
-<li>Date of birth</li>
-<li>Registered mobile number</li>
-<li>MNP (select from the drop-down menu)</li>
-<li>Username</li>
-<li>Enter ‘Captcha’</li>
-<li>Select a security question and enter its answer</li>
-</ul>
-<li>Click on the ‘Submit’ button</li>
-<li>On the next screen customer’s registered email ID will appear</li>
-<li>Clicking on the ‘Confirm’ button</li>
-<li>An OTAC – One time activation code will be generated. The first 5 digits/characters will be sent on your registered email and the last 5 digits/characters will be sent via SMS on your registered cell number.</li>
-<li>
-                                            You can log in by combining the OTAC sent to your email and cell number/li&gt;
-                                        </li></ol>
-</div>
-<h3>Q. How do I register for Alfalah Internet Banking if my email ID is not updated/ change my email ID?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            After filling the above information listed in question number 3, complete the following steps:
-                                        </p>
-<ol type="1">
-<li>Click on change button and then enter your email ID</li>
-<li>Click the ‘Proceed’ button</li>
-<li>A message will appear to call the contact center at 111 225 111</li>
-<li>Please call the contact center from your registered mobile number</li>
-<li>The Contact Centre will ask you verification questions</li>
-<li>Upon verification an OTAC – One Time Activation Code will be generated. The first 5 digits/characters will be sent on your registered email and the last 5 digits/characters will be sent on via SMS to your registered cell number.</li>
-<li>You can log in by combining the OTAC sent to your email and cell number</li>
-</ol>
-</div>
-<h3>Q. Can I perform financial activities through registering from my Alfalah Credit Card?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>You can only view your Alfalah Credit Card transactions and send certain Credit Card related requests. You will be able to perform financial transactions in near future.</p>
-<ol type="1">
-<li>Credit Card profile</li>
-<li>Credit Card summary</li>
-<li>Request to change contact details</li>
-<li>Credit Card Renewal request</li>
-<li>Replacement of Credit Card request</li>
-<li>Reversal of charges request</li>
-<li>SMS subscription for credit card transaction request</li>
-</ol>
-</div>
-<h3>Q. Can I subscribe for Alfalah Internet Banking through my supplementary credit card?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>Yes, you can subscribe through your supplementary credit card.</p>
-</div>
-<h3>Q.	I am residing abroad and using Bank Alfalah`s Credit Card. Can I subscribe to Internet Banking?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>If your mobile number is on international roaming and is registered with the Bank, your OTAC will be sent to you for first login.</p>
-</div>
-<h3>Q.	If I have subscribed for Alfalah Internet Banking with my Debit Card, can I also subscribe with my Alfalah Credit Card?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>You can subscribe with either one of them.</p>
-</div>
-<h3>Q. What is the processing time for the following Credit Card requests?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<ol type="1">
-<li>Request to change contact details</li>
-<li>Credit Card Renewal</li>
-<li>Replacement of Credit Card</li>
-<li>Reversal of charges</li>
-<li>SMS subscription for credit card transaction</li>
-</ol>
-<p>Processing time for the above mentioned Credit Card requests is 3 working days.</p>
-</div>
-<h3>Q. Which Credit Card bills I can pay from Bank Alfalah Internet Banking If I am subscribed with Alfalah Debit Card?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>You can pay your own credit card bills as well as other Bank Alfalah Credit Card bills via Bank Alfalah Internet Banking. Additionally P&amp;G Corporate Customers can also pay their Citibank Credit Card Bill through Bank Alfalah Internet Banking.</p>
-</div>
-<h3>Q. How do I pay my Bank Alfalah Credit Card Bill If I am subscribed with Alfalah Debit Card?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You need to create a beneficiary to pay your Bank Alfalah Credit Card bill through the following below procedure:
-                                        </p>
-<ol type="1">
-<li>Go to the Beneficiary Management menu</li>
-<li>Click Create Beneficiary</li>
-<li>Select Credit Card</li>
-<li>Select Bank Alfalah Card from the drop down menu</li>
-<li>Click the Next button</li>
-<li>Enter</li>
-<li>CNIC</li>
-<li>Credit Card number</li>
-<li>Press Get button (Account title will be populated)</li>
-<li>Provide Alias/Nick</li>
-<li>Click Submit button</li>
-<li>A Confirm Beneficiary screen will appear</li>
-<li>Click YES to proceed</li>
-<li>OTP generated to be delivered at your registered email address and cell number</li>
-<li>Enter OTP in the password box</li>
-<li>Click YES button</li>
-<li>Transaction completed</li>
-</ol>
-<p>
-                                            The added Bank Alfalah Credit Card beneficiary will become available in the Credit Card menu for payment.
-                                        </p>
-</div>
-</div>
-</div>
-<div class="content-faq" id="div66">
-<div class="faq-accordion" id="Div12">
-<h3>Q. Which Charity Organizations I can donate using Bank Alfalah Internet Banking?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You can make donations to the following charity organizations:
-                                        </p>
-<ol type="1">
-<li>Edhi Foundation</li>
-<li>Saylani Welfare Trust</li>
-<li>Shaukat Khanam Memorial Hospital</li>
-<li>SIUT – Sind Institute of Urology and Technology</li>
-</ol>
-<p>
-                                            More charitable organizations will be added soon.
-                                        </p>
-</div>
-</div>
-</div>
-<div class="content-faq" id="div67">
-<div class="faq-accordion" id="Div14">
-<h3>Q. What is Card Walla?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Card Walla is a secure and unique distribution gift card distribution system that allows for immediate delivery of gift cards electronically via SMS.
-                                        </p>
-</div>
-<h3>Q. How TheCardWalla Works through Alfalah Internet Banking?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<ol type="1">
-<li>Go on Bank Alfalah Internet Banking</li>
-<li>Login and Go on online shopping menu</li>
-<li>Click on Cardwalla and select a product</li>
-<li>Click on Get bill and make payment</li>
-<li>Code will be sent on registered cell number</li>
-</ol>
-</div>
-<h3>Q. What if I don’t receive the code on my registered number?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            If you didn’t receive the code on your registered cell number then call contact center 111-225-111 to get the code regenerated.
-                                        </p>
-</div>
-<h3>Q. In what countries will CardWalla electronic vouchers work?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            CardWalla electronic vouchers currently work in the following stores:
-                                        </p>
-<ol type="1">
-<li>ITunes - USA Store</li>
-<li>Google Play - USA Store</li>
-<li>Xbox - USA Store</li>
-<li>Playstation - USA Store</li>
-<li>Amazon - USA Store</li>
-<li>Gilt - USA Store</li>
-<li>Skype - Global</li>
-<li>Facebook - Global</li>
-<li>Nintendo - Global</li>
-<li>Minecraft Gamecard - Global</li>
-<li>League of Legends - Global</li>
-<li>World of Warcraft – Global</li>
-</ol>
-<p>
-                                            For more details please visit https://monami.zendesk.com/hc/en-us 
-                                        </p>
-</div>
-</div>
-</div>
-<div class="content-faq" id="div68">
-<div class="faq-accordion" id="Div16">
-<h3>Q. Which online merchants I can make payments to?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Bank Alfalah offers a secure method of payment to an increasing list of merchants. Customers can make their payments for purchases from the below listed merchants:
-                                        </p>
-<ol type="1">
-<li>TCS Connect</li>
-<li>Shophive</li>
-</ol>
-<p>
-                                            More Merchants will be added soon. 
-                                        </p>
-</div>
-<h3>Q. How do I pay for Online Shopping Merchants? <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Please follow the procedure below to make payment to Online Merchants:
-                                        </p>
-<ul>
-<li>Login to Bank Alfalah Internet Banking</li>
-<li>Click on Online Shopping Menu</li>
-<li>Select Merchant</li>
-<li>Select From Account (If the user has more than one account linked)</li>
-<li>Enter amount to be paid</li>
-<li>Enter order number provided by Merchant in the Merchant Order ID field</li>
-<li>Click Proceed button</li>
-<li>Confirm Transaction by clicking Yes button</li>
-<li>Transaction completed</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="content-faq" id="div69">
-<div class="faq-accordion" id="Div19">
-<h3>Q. How can I pay for Shaheen Air International ticket through Alfalah Internet Banking?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You can now book a ticket online for Shaheen Air International and pay through Alfalah Internet Banking. Following is the process to book a ticket online and make a payment:
-                                        </p>
-<h3>Shaheen Air International website steps</h3>
-<ol type="1">
-<li>Customer to visit "www.shaheenair.com"</li>
-<li>Book Flight by selecting following from Shaheen Air website</li>
-<ul>
-<li>Flying From – City or Country</li>
-<li>To - City</li>
-<li>Departing - Date &amp; Time</li>
-<li>Returning - Date &amp; Time</li>
-</ul>
-<li>Select:</li>
-<ul>
-<li>Number of Adults</li>
-<li>Number of Children</li>
-<li>Number of Infant</li>
-<li>Currency PKR</li>
-</ul>
-<li>Click Search button</li>
-<li>Select Flights</li>
-<ul>
-<li>Roundtrip</li>
-<li>One way</li>
-</ul>
-<li>Click select on the desirable ticket result</li>
-<li>Click Next button available on the bottom of the page</li>
-<li>Enter passengers’ details (depending on what is selected for point 3)</li>
-<ul>
-<li>Title</li>
-<li>Adult Full Name</li>
-<li>Date of Birth</li>
-<li>Gender</li>
-<li>CNIC</li>
-<li>Passport Number</li>
-<li>Expiry date of Passport number</li>
-</ul>
-<li>Enter Customer details in the customer details section</li>
-<ul>
-<li>Contact Name</li>
-<li>Phone Number</li>
-<li>Alternate Phone Number</li>
-<li>Special Requests (optional)</li>
-</ul>
-<li>Click on Complete booking button</li>
-</ol>
-<h3>BAF Internet Banking steps:</h3>
-<ol type="1">
-<li>Log on to BAF Internet Banking using login credentials</li>
-<li>Go to Other Payments menu</li>
-<li>Select From Account from drop down (if subscriber has more than one account linked)</li>
-<li>Shaheen Air as company will appear</li>
-<li>Enter the Reference number available on SAI website (same will appear after complete booking step on right hand side under PNR number)</li>
-<li>Click Get button</li>
-<li>Ticket details will appear</li>
-<li>Enter comments</li>
-<li>Click Pay button</li>
-</ol>
-<h3>Subscriber will receive payment confirmation SMS from Shaheen Air International with 10 minutes.</h3>
-</div>
-</div>
-</div>
-<div class="content-faq" id="div70">
-<div class="faq-accordion" id="Div21">
-<h3>Q. What is SSL (Secure Socket Layer)?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            A protocol developed for transmitting private documents via the Internet. SSL works by using a private key to encrypt data that is transferred over the SSL connection. Both Netscape Navigator and Internet Explorer support SSL and many websites use this protocol to obtain confidential user information, such as credit card numbers and other financial details.
-                                        </p>
-</div>
-<h3>Q. What is VeriSign?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            VeriSign is the dominant certificate authority on the internet at present, though many of its certificates are signed as RSA Data Security - a private corporation that acts as a certifying authority and provides certificates.
-                                        </p>
-</div>
-<h3>Q. What is Firewall?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            A term for any device that would prevent undesirables on the global internet from accessing your network. It also often prevents or controls users from getting out to the internet from your local network. A firewall allows only specific kinds of messages from the internet to flow in and out of the internal network. This protects the internal network from intruders or hackers who might try to use the Iinternet to break into those systems.
-                                        </p>
-</div>
-<h3>Security Tips<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>The following are simple precautions that customers must take to safeguard security when using Bank Alfalah Internet Banking:</p>
-<h3>Do not disclose your "Login Information" to anyone.</h3>
-<ul>
-<li>Never reveal your Login Name/ Password to anyone.</li>
-<li>If you think someone has discovered your password, call us immediately on 111-225-111.</li>
-<li>Bank Alfalah will in no case ask you to send your login / password through an email.</li>
-</ul>
-<p>Do not share your email account with anyone. Your email shall be used to send you a temporary password. Therefore, make sure that you do not share your email account with anyone.</p>
-<h3>Beware of Phishing Scams &amp; Identity thieves</h3>
-<p>Phishing is an attempt to criminally and fraudulently acquire sensitive information, such as usernames, passwords and credit card details, by masquerading as a trustworthy entity in an electronic communication. It is a serious offence and is also known as identity theft. Phishing refers to creating an imitation of an existing legitimate web page or the use of email to trick users into providing sensitive personal information.</p>
-<h3>Control access to your PC &amp; do not use publicly-shared PCs for Internet Banking</h3>
-<ul>
-<li>Do not allow anyone to install programs on your computer without checking that it is safe to do so.</li>
-<li>Do not use publicly-shared PCs for Internet Banking.</li>
-</ul>
-<h3>Ensure that you are at the Bank Alfalah Internet Banking website. Look for the SSL secure connection symbol: </h3>
-<ul>
-<li>Check the website address before signing in.</li>
-<li>Bank Alfalah uses the latest and strongest cryptographic standards such as SSL (Secure Socket Layer), to protect the information being transferred over the Internet. This symbol will be shown every time you connect with the bank at 128-bit SSL Encryption. No symbol would be displayed if your data is not properly encrypted.</li>
-</ul>
-<h3>Never store your “Login Name/Password” on your browser.</h3>
-<p>Most browsers offer a facility to store your “Login Name/Password” for your convenience, but it is highly recommended that you should not use this. If you are using Internet explorer you can avoid this feature by simply going to:</p>
-<ul>
-<li>“Tools” &gt;&gt; “Internet Options” &gt;&gt; “Content”</li>
-<li>Uncheck "User names and passwords on forms" and click on "Clear Passwords"</li>
-<li>Click on "OK" to save your settings</li>
-</ul>
-<h3>Change your “Password” on regular basis </h3>
-<ul>
-<li>Remember to change your password on a regular basis.</li>
-<li>Select a password that cannot be easily guessed or associated with anything personal (for example: names and birth dates). Mix numbers and letters (uppercase &amp; lowercase) to provide additional security.</li>
-</ul>
-<h3>Keep your computer updated with latest antivirus and firewall updates</h3>
-<ul>
-<li>In order to protect your computer from virus attacks, you should keep the computer updated with the latest versions of antivirus and firewall updates.</li>
-<li>Consider buying personal firewall and anti-virus software to provide another level of security between the internet and your computer.</li>
-</ul>
-<h3>When viewing your personal information, be aware of the environment </h3>
-<ul>
-<li>While viewing your personal information or performing transactions online, beware of your surroundings. Make sure that no one can see your information while logging in or performing transactions.</li>
-<li>Though we have programmed the system to log-out automatically after 12 minutes of inactivity, you should never leave your computer unattended while logged in.</li>
-<li>Ensure you have log-out properly by selecting the 'log-out' button at the completion of your Internet Banking Session. Also close your browser after logging out.</li>
-</ul>
-<h3>Check your account statements on a regular basis</h3>
-<ul>
-<li>Look out for transactions you don't remember making - or cash that has been transferred unexpectedly from your bank accounts.</li>
-<li>Always check your transaction history details and statements regularly to make sure that all details are updated and there are no unauthorized transactions on your accounts.</li>
-<li>Take note of your 'last login date and time' whenever you login to Bank Alfalah Internet Banking to make sure that there has not been any unauthorized access.</li>
-<li>If you do find any suspicious transfers or have any doubts, you should immediately call our Contact Center on 111-225-111.</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="content-faq" id="div71">
-<div class="faq-accordion" id="Div23">
-<h3>Q. As an Alfalah Corporate/SME customer how do I register for Alfalah Internet Banking?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Follow these steps in order to register for Alfalah Internet Banking:
-                                        </p>
-<ol type="1">
-<li>Visit bankalfalah.com and download the form for corporate/SME Internet Banking.</li>
-<li>Fill in the required Information.</li>
-<li>After Company`s Director(s) signature(s) and stamp. Courier/visit the branch to hand over the request to CIBG/SME Branch.</li>
-<li>A link will be sent to your designated employee’s email Id and cell number. If you are an employee, you can click on the link either from email or cell which will direct him to the registration page. You can:</li>
-<ul>
-<li>Accept Terms and Conditions</li>
-<li>Enter details required</li>
-</ul>
-<li>An OTAC – One Time Activation Code will be generated. The first 5 digits/characters will be sent on your registered email and the last 5 digits/characters will be sent via SMS on your registered cell number.</li>
-<li>You can log in by combining the OTAC sent to your email and cell number.</li>
-</ol>
-</div>
-<h3>Q. How do I update/delete my Alfalah Internet Banking? <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Follow these steps in order to update/delete Alfalah Internet Banking:
-                                        </p>
-<ol type="1">
-<li>Visit bankalfalah.com and download the form for corporate/SME Internet Banking.</li>
-<li>Fill in the required Information.</li>
-<li>After Company`s Director(s) signature(s) and stamp. Courier/visit the branch to hand over the request to CIBG/SME Branch.</li>
-</ol>
-</div>
-<h3>Q. Which activities can I perform using Bank Alfalah Internet Banking? <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You can view your corporate account details.
-                                        </p>
-<ol type="1">
-<li>Balance inquiry</li>
-<li>Account Statement</li>
-</ol>
-</div>
-<h3>Q. Can I download my account statement? <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Yes, you can download your account statement in:
-                                        </p>
-<ol type="1">
-<li>PDF</li>
-<li>Excel</li>
-</ol>
-</div>
-<h3>Q. What is the maximum time range, I can view my account statement?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            You can view your account statement for one year through Bank Alfalah’s Internet Banking.
-                                        </p>
-</div>
-<h3>Q. How much time will it take to subscribe for Alfalah Internet Banking? <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            It takes 3 working days for your subscription to get processed on Alfalah Internet Banking
-                                        </p>
-</div>
-</div>
-</div>
-<div class="content-faq" id="div72">
-<div class="faq-accordion" id="Div24">
-<h3>Q. How can I contact Bookme.pk for any ticket related queries?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Customer Service support regarding ticket queries is available through Bookme.pk helpline 0313-7786888 &amp; email at contact@bookme.pk between the hours 06:00 AM to 12:00 AM
-                                        </p>
-</div>
-<h3>Q. How do customers know if their purchase was successful? <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Upon completion of ticket purchase, customers will be shown a confirmation message on Internet Banking. After the transaction is successful, customers will receive a confirmation via SMS &amp; Email from Bookme that will contain the summary of their orders.
-                                        </p>
-</div>
-<h3>Q. What is the Cancellation &amp; Refund Policy? <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            There is a ‘No return, No refund’ policy for confirmed Cinema Tickets
-                                        </p>
-</div>
-<h3>Q. What if the customer didn’t receive a booking code via SMS against Cinema booking? <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            In that case the customer can call on the Bookme helpline number (03137786888) or can email Bookme on contact@bookme.pk. After verifying the customer, Bookme will resend ticket codes to the customer so they can get their tickets printed over the counter.
-                                        </p>
-</div>
-<h3>Q. Resolutions time for customer queries?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Bookme usually takes 24 hours to resolve all kind of queries.
-                                        </p>
-</div>
-</div>
-</div>
-<div class="content-faq" id="div73">
-<div class="faq-accordion" id="Div25">
-<h3>Q. Can customers collect Banker’s Cheque from branches other than their parent branches?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Yes
-                                        </p>
-</div>
-<h3>Q. Who can collect Banker’s Cheque from the branch? <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Account Holder or Authorized Representative nominated by Account Holder
-                                        </p>
-</div>
-<h3>Q. Can a customer request Banker’s Cheque 24/7?  <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Yes, but requests after 4pm will be processed on the next business day
-                                        </p>
-</div>
-<h3>Q. In how much time will an uncollected Banker’s Cheque be cancelled? <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            After 48 working hours of request submission
-                                        </p>
-</div>
-<h3>Q. Is a copy of CNIC mandatory for Banker’s Cheque collection?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Yes
-                                        </p>
-</div>
-<h3>Q. Is CNIC sufficient for Corporate Entities?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            No, an NTN is mandatory for Corporate entities
-                                        </p>
-</div>
-</div>
-</div>
-<div class="content-faq" id="div74">
-<div class="faq-accordion" id="Div26">
-<h3>Q. Can first Cheque book be requested from Alfa App &amp; Web?<span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            No
-                                        </p>
-</div>
-<h3>Q. Can customer request multiple Cheque books from Alfa App &amp; Web?  <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            Yes, but after complete processing of current requested Cheque book
-                                        </p>
-</div>
-<h3>Q. Can Cheque book be collected from branches other than the parent branches?  <span class="faq-collapse-plus">+</span><span class="faq-collapse-minus">-</span></h3>
-<div>
-<p>
-                                            No
-                                        </p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="lower-footer-copy">
-<div class="copy">Copyright © 2016 Bank Alfalah All Rights Reserved</div>
-<div class="links-copy"><a href="Disclaimer.aspx">Disclaimer</a> | <a href="Privacy.aspx">Privacy &amp; Security</a> | <a href="ContactUs.aspx">Contact Us</a> | <a href="#">Sitemap</a></div>
-</div>
-</div>
-<script type="text/javascript">
-//<![CDATA[
-openconditionblock();//]]>
-</script>
-</form>
-<style type="text/css">
-        .ui-tab-fix {
-            position: fixed;
-            top: 0;
-        }
-    </style>
+<button class="btn positive go-ahead" data-dismiss="modal" ng-click="RedirectToLoginTNC();" type="button">OK</button>
+</div>
+</div>
+</div>
+</div>
+<div aria-hidden="true" class="custom-pop modal fade" data-backdrop="static" data-keyboard="false" id="passwordChangeAlert" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content rounded">
+<div class="modal-header">
+<img src="https://www.hblibank.com.pk//Assets/img/transactionPassword-popup.svg"/>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="col">
+<div class="text-center">
+<p>{{Shared.LoginPopup}}</p>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer rounded-bottom">
+<button class="btn positive" data-dismiss="modal" ng-click="DisableAlert();" type="button">I have noted</button>
+</div>
+</div>
+</div>
+</div>
+<div aria-hidden="true" class="device-registration custom-pop modal fade enable-ent" data-backdrop="static" data-keyboard="false" id="DeviceRegester" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content rounded" ng-form="DeviceRegester">
+<div class="modal-header">
+<img src="https://www.hblibank.com.pk//Assets/img/device-popup.svg"/>
+</div>
+<div class="modal-body">
+<h5 class="modal-title">Device Registration</h5>
+<div class="row">
+<div class="col">
+<p class="text-center" ng-show="!isIVR">A One Time Password (OTP) for Device Registration has been sent to your mobile number and/or email address registered with HBL. Please enter the OTP below to continue using HBL Digital Banking on this device.</p>
+<p class="text-center" ng-show="isIVR">A One Time Password (OTP) for Device Registration has been sent via call on your mobile number registered with HBL. Please enter the OTP below to continue using HBL Digital Banking on this device.</p>
+<div class="form">
+<div class="form-group">
+<span style="display: flex;font-size: 13px;background: #f2f2d6;">A One Time Password (OTP) has been sent on your registered mobile number and/or email address. Please enter OTP below. </span><div style="position:relative;"><label for="OneTimePassword">One Time Password </label>
+<input alt="{{DEVICE_REGISTRATION.inputType}}" autocomplete="off" class="form-control forpassword" draggable="false" id="txtPin" max="{{DEVICE_REGISTRATION.length}}" maxlength="{{DEVICE_REGISTRATION.length}}" min="{{DEVICE_REGISTRATION.length}}" minlength="{{DEVICE_REGISTRATION.length}}" name="OneTimePassword" ng-blur="DeviceRegester.OneTimePassword.ShowValidation=true" ng-init="StopPaste('OneTimePassword')" ng-model="postObj.otp" ng-required="true" ondragstart="return false" onkeypress="return setControlType(event)" onload="init()" placeholder="Enter one time password" readonly="" type="password"/>
+<div class="ValidationError otp-field" ng-messages="DeviceRegester.OneTimePassword.$error" ng-show="DeviceRegester.Submited || DeviceRegester.OneTimePassword.ShowValidation" style="text-align: left;"><p ng-message="required">This field is required</p>
+<p ng-message="min">One Time Password must be equal to {{DEVICE_REGISTRATION.length}}</p>
+<p ng-message="minlength">One Time Password must be equal to {{DEVICE_REGISTRATION.length}}</p>
+<p ng-message="max">One Time Password must be equal to {{DEVICE_REGISTRATION.length}}</p>
+<p ng-message="maxlength">One Time Password must be equal to {{DEVICE_REGISTRATION.length}}</p>
+</div>
+<div class="resendOtpDiv"><button class="btn" ng-click="postObj.otp='';ShowOTPHelpPopup3rdResend('655fae41-6457-4e2b-90e9-b626aeb8feb8'); SendOtp()" ng-disabled="Shared.clock!=0" type="button">Resend SMS</button><button class="btn" ng-click="ShowOTPHelpPopup3rdResend('655fae41-6457-4e2b-90e9-b626aeb8feb8'); sendIVRcall()" ng-disabled="Shared.clock!=0" type="button">Get A Call</button></div>
+<p class="msg"><span ng-if="Shared.clock!=0" style="font-weight:400"> Please use "Resend SMS" or "Get a Call" button if you do not receive OTP within {{Shared.clock}} seconds.</span><span ng-if="Shared.clock==0" style="font-weight:400">Please use the "Resend SMS" or "Get a Call" button if you did not receive OTP.<br/> <b>Note</b>: In case your mobile number is ported to another network, type 'HBL' and send SMS to '9460'. You may re-attempt once confirmation message is received.</span><br/>Having trouble in receiving OTP? <a href="" ng-click="ShowOTPHelpPopup();">Click Here </a><div class="form-check form-check-inline eye-container eye-container-ivr" ng-init="loadScript()"><input class="form-check-input" id="showPin" type="checkbox" value="option1"/><label class="form-check-label open" for="inlineCheckbox1"><i class="open fa fa-eye"></i><i class="close fa fa-eye-slash"></i></label></div> </p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="error" ng-if="postObj.ErrorMessage!=null &amp;&amp; !DisableMessage">
+<div class="col">
+<p class="text-danger">{{postObj.ErrorMessage}}</p>
+</div>
+</div>
+</div>
+<div class="modal-footer rounded-bottom">
+<button class="btn btn-default negative" data-dismiss="modal" ng-click="ClearFields();" type="button">Cancel</button>
+<button class="btn positive submit-btn" ng-click="DeviceRegester.Submited=true; !DeviceRegester.$invalid ?(DeviceRegistraion()):('')" type="button">Verify</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-backdrop fade show" ng-show="$parent.ErrorMessage!=null"></div>
+<div aria-hidden="true" aria-labelledby="exampleModalLabel" class="custom-pop fail modal fade {{$parent.ErrorMessage!=null?'show':''}}" data-backdrop="static" data-keyboard="false" id="popuperror" ng-attr-style="{{$parent.ErrorMessage !=null?'display:block':''}}" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content rounded">
+<div class="modal-header">
+<img src="https://www.hblibank.com.pk//Assets/img/error-popup.svg"/>
+</div>
+<div class="modal-body text-center">
+<p ng-bind-html="x" ng-repeat="x in $parent.ErrorMessage"></p>
+</div>
+<div class="modal-footer rounded-bottom">
+<a class="btn negative" data-dismiss="{{Shared.Response.RedicrectURL==null || Shared.Response.RedicrectURL==undefined?'modal':''}}" href="{{RedicrectURL==null || RedicrectURL==undefined?'#':RedicrectURL}}" ng-show="ResponseCode == 1396">Close</a>
+<button class="btn negative" data-dismiss="modal" ng-click="ErrorMessage=null;$parent.ErrorMessage=null;" ng-show="ResponseCode != 1396" type="button">{{IsLock==true?'No':'Close'}}</button>
+<button class="btn positive" data-dismiss="modal" ng-click="ErrorMessage=null;$parent.ErrorMessage=null;RedirectToForgetPassword();" ng-if="IsLock" type="button">Yes</button>
+</div>
+</div>
+</div>
+</div>
+<div ng-if="$parent.ErrorMessage!=null">
 <style>
-        .apps {
-            width: 86%;
+        body {
             position: relative;
-            left: 12px;
-        }
-
-        .theme-color {
-            color: #d51302;
-        }
-
-        #tabs-5 h5 {
-            margin-top: 0;
-        }
-
-        #tabs-5 .mobile-number {
-            background-position: 6px -58px;
-        }
-
-        .fixed {
-            position: fixed;
+            overflow: hidden;
             width: 100%;
-            background: #fff;
-            top: 0;
-            /*left: 40px;*/
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            height:100%;height:100vh;
+            top:0;
+            bottom:0;
+        }
+        .wrapper {
+            position:fixed;width:100%;
+        }
+        body .wrapper.before-sign {position:relative;}
+        @media (max-width: 991px) {
+            .copyright {
+                position: fixed;
+            }
         }
     </style>
-<script src="https://netbanking.bankalfalah.com/ib/js/CustomValidation.js" type="text/javascript"></script>
-<script src="https://netbanking.bankalfalah.com/ib/js/Date.js"></script>
-<script src="https://netbanking.bankalfalah.com/ib/assets/js/jquery.rateyo.min.js" type="text/javascript"></script>
-<script src="https://netbanking.bankalfalah.com/ib/assets/js/jquery.jConveyorTicker.min.js"></script>
+</div>
+<div aria-hidden="true" aria-labelledby="exampleModalLabel" class="custom-pop modal fade tutorial" data-backdrop="static" data-keyboard="false" id="TutorailPoup" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content rounded">
+<div class="modal-header">
+<img src="https://www.hblibank.com.pk//Assets/img/tutorial-popup.svg"/>
+</div>
+<div class="modal-body">
+<script src="https://www.hblibank.com.pk//AngularJsController/Tutorial/Index.js"></script>
 <script>
-        // Footer Tabs Fix
-
-        //$(document).ready(function () {
-        //    $('#googlemaps').load('googlemap.aspx');//exact path
-        //});
-        $(window).scroll(function () {
-
-
-            var targetElement = $('#tab1inner-offer');
-            var targetElementUl = $('#tab1inner-offer > ul');
-
-            var scrollPosition = $(this).scrollTop() - $(window).height() + 600;
-
-            console.log(targetElement.offset().top, scrollPosition)
-
-            // 400 - 
-            // return;
-            if (scrollPosition >= targetElement.offset().top) {
-
-                targetElementUl.addClass('fixed');
-
-            } else {
-
-                targetElementUl.removeClass('fixed');
-
-            }
-            //     if ($(window).scrollTop() <= (($(document).height() - $(window).height()) - $('.upper-tabs').innerHeight())) {
-
-            //         $(".ui-tabs-nav").addClass("ui-tab-fix");
-            //     }
-        });
-        $(function () {
-            $("#tabs").tabs({
-                collapsible: true,
-                active: false,
-                activate: function (e, ui) {
-                    $('.upper-tabs .prev-tab').removeClass('prev-tab');
-                    ui.newTab.prev('.upper-tabs .first-li').addClass('prev-tab');
-                    //                $('.ui-tabs-active').prev('li').toggleClass('prev-tab');
-                }
-            });
-        });
-        $(function () {
-            $(".tab-inner").tabs({
-                collapsible: true,
-                active: false
-
-            });
-        });
-        $('.first-li').click(function () {
-            $('html, body').animate({
-                scrollTop: $(document).height()
-            }, 'slow');
-        });
-        $(".backToTop").click(function () {
-            $('html, body').animate({
-                scrollTop: $(".upper-tabs").offset().top
-            }, 'slow');
-        });
-        $("#help-tab").click(function () {
-            $('html, body').animate({
-                scrollTop: $(".help-c").offset().top
-            }, 'slow');
-        });
-
-        $('.parent').click(function () {
-            $(this).siblings('.parent').find('ul').slideUp();
-            $(this).find('ul').slideToggle();
-        });
-
-
-    </script>
-<script>
-        jQuery(function () {;
-            jQuery('.single-faq').click(function () {
-                $('.single-faq').removeClass('question-active');
-                $(this).addClass('question-active');
-
-                jQuery('.content-faq').hide();
-                jQuery('#div' + $(this).attr('target')).show();
-
-            });
-
-        });
-        $('#searchtextbox').keydown(function (e) {
-            e.preventDefault();
-        });
-    </script>
-<script>
-        $(function () {
-            $(".faq-accordion").accordion();
-        });
-    </script>
-<script>
-         $(function () {
-             $(".date-floats").datepicker();
-           
-         });
-    </script>
-<script type="text/javascript">
-
-        $(".modal_trigger").leanModal({ top: 200, overlay: 0.6, closeButton: ".modal_close" });
-    </script>
-<script>
-        //var $box = $('.box');
-        function closebanner() {
-            $("#fadeoff").removeClass("modal-backdrop fade in");
-            $(".popScroll").fadeOut("slow", function () {
-                // Animation complete.
-            });
-            $("div").remove(".popScroll");
-        }
-        $('.closei').each(function () {
-            var color = $(this).css('backgroundColor');
-            var content = $(this).html();
-            $(this).click(function () {
-                //$box.css('backgroundColor', color);
-                //$box.addClass('open');
-                //$box.find('p').html(content);
-                //$(".popup").toggle();
-                //$('Body1').removeClass('overlay');
-                closebanner();
-            });
-
-            //$('.close').click(function () {
-            //    $box.removeClass('open');
-            //    $box.css('backgroundColor', 'transparent');
-
-            //});
-
-            //$('#Body1').toggleClass('overlay');
-            $("#pop-toggle").click(function () {
-                $(".popup").toggle();
-                $('body').toggleClass('overlay');
-            })
-            $(".close").click(function () {
-                $(".popup").toggle();
-                $('body').toggleClass('overlay');
-            });
-
-        });
-    </script>
-<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"/>
-</body>
+    var ismulti="";
+</script>
+<div ng-controller="TutorialController" ng-init="CheckLoad()">
+<div class="scrollby" style="height:400px; overflow-y:auto">
+<div class="row" ng-repeat="data in TutorialData">
+<div class="col-12">
+<iframe ng-src="{{data.Url | trusted}}"></iframe>
+<h1 class="tutorialH1">{{data.Title}}</h1>
+<h2 class="tutorialH2">{{data.SubTitle}}</h2>
+<p class="tutorialP">{{data.Description}}</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer rounded-bottom">
+<input class="btn positive" data-dismiss="modal" type="button" value="Close">
+</input></div>
+</div>
+</div>
+</div>
+<div aria-hidden="true" aria-labelledby="exampleModalLabel" class="custom-pop modal fade" data-backdrop="static" data-keyboard="false" id="OTPHelpPopup" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content rounded">
+<div class="modal-header">
+<img src="https://www.hblibank.com.pk/{{OTPHelpPopup.icon == undefined ? Shared.BaseURL+'/Assets/img/info.svg' : OTPHelpPopup.icon}}"/>
+</div>
+<div class="modal-body">
+<h5 class="modal-title">{{OTPHelpPopup.Heading}}</h5>
+<br/>
+<div ng-bind-html="Shared.loginResponse.otpAdvisory"></div>
+</div>
+<div class="modal-footer rounded-bottom">
+<a class="btn positive" data-dismiss="{{OTPHelpPopup.RedirectURL==null || OTPHelpPopup.RedirectURL==undefined?'modal':''}}" href="{{OTPHelpPopup.RedirectURL==null || OTPHelpPopup.RedirectURL==undefined?'#':Shared.BaseURL + OTPHelpPopup.RedirectURL}}">{{OTPHelpPopup.btnText}}</a>
+</div>
+</div>
+</div>
+</div>
+<script async="" src="https://www.hblibank.com.pk//_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&amp;ns=1&amp;cb=1545374805" type="text/javascript"></script></input></body>
 </html>

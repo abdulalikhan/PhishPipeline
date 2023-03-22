@@ -5,12 +5,20 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 # Replace <login_page_url> with the actual login page URL
-login_url = "https://netbanking.bankalfalah.com/ib/Login.aspx"
+login_url = "https://www.hblibank.com.pk/Login"
+#login_url = "https://netbanking.bankalfalah.com/ib/Login.aspx"
 #login_url = "https://flexstudent.nu.edu.pk/Login"
 base_url = "/".join(login_url.split("/")[:-1])
 
-# Create a session to handle cookies and authentication
+# Set the user agent to a commonly used one
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'}
+
+# Create a session
 session = requests.Session()
+
+# Set the headers for the session
+session.headers.update(headers)
 
 # Get the login page HTML
 response = session.get(login_url)
@@ -65,6 +73,9 @@ for style_tag in style_tags:
 # Save the updated HTML to a new file
 with open("build/templates/index.html", "w", encoding="utf-8") as f:
     f.write(str(soup))
+
+with open('/tmp/log.txt', 'w') as f:
+    f.write('')
 
 # Define the command to run
 #command = "vercel --cwd build/ --yes"
