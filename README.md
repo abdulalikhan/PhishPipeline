@@ -16,7 +16,7 @@ This page proposes the use of a tool – **PhishPipeline** to serve as a custom 
 <img src="https://github.com/abdulalikhan/PhishPipeline/blob/main/screenshots/menu_screen.png?raw=true" alt="Menu Screen" width="65%">
 
 ### Generating a phishing page
-<img src="https://github.com/abdulalikhan/PhishPipeline/blob/main/screenshots/s1_generation.png?raw=true" alt="Generation" width="65%">
+<img src="https://github.com/abdulalikhan/PhishPipeline/blob/main/screenshots/s1_generation.jpeg?raw=true" alt="Generation" width="65%">
 
 ### Deploying the phishing page
 <img src="https://github.com/abdulalikhan/PhishPipeline/blob/main/screenshots/s2_deployment.png?raw=true" alt="Generation" width="65%">
