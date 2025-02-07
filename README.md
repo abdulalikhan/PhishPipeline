@@ -2,6 +2,11 @@
 
 A custom phishing site and message generator with deployment support.
 
+## Disclaimer
+PhishPipeline was developed as part of an Ethical Hacking course and is intended for educational purposes only. It demonstrates how modern phishing attacks can be automated using Generative AI including the use of Large Language Models (LLMs) like Cohere to create highly convincing bait messages.
+
+PhishPipeline is designed to help cybersecurity professionals understand the potential dangers of AI-driven phishing attacks and improve defenses against them. It should only be used in controlled environments, such as penetration testing or training scenarios, with explicit permission from all involved parties.
+
 ## About
 Recently published threat reports indicate that phishing attacks have become more rampant in recent times. There has also been a dramatic shift from generic, bulk phishing attacks to more sophisticated, targeted phishing attacks.
 
