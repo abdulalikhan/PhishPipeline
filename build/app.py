@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, redirect
+from constants import LOG_FILE_PATH
 import tempfile
 
 app = Flask(__name__)
@@ -26,7 +27,7 @@ def login():
     # Move the temporary file to a read-only directory
     with open(temp_path, 'r') as f:
         log_data = f.read()
-    with open('/tmp/log.txt', 'a') as f:
+    with open(LOG_FILE_PATH, 'a') as f:
         f.write(log_data)
     return render_template("unavailable.html")
 
@@ -34,7 +35,7 @@ def login():
 @app.route('/log')
 def view_log():
     # Open the file for reading
-    with open('/tmp/log.txt', 'r') as file:
+    with open(LOG_FILE_PATH, 'r') as file:
         # Read the contents of the file
         file_contents = file.read()
 
